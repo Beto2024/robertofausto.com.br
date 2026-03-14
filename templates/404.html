@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Página não encontrada | Roberto Fausto{% endblock %}
+
+{% block content %}
+
+<section class="min-h-screen flex items-center justify-center py-20">
+    <div class="max-w-lg mx-auto px-4 sm:px-6 text-center">
+
+        <!-- Número 404 grande -->
+        <div class="mb-8 fade-in-up">
+            <span class="text-9xl sm:text-[180px] font-black leading-none gradient-text select-none" aria-hidden="true">
+                404
+            </span>
+        </div>
+
+        <!-- Ícone -->
+        <div class="w-16 h-16 bg-gray-900 border border-gray-800 rounded-2xl flex items-center justify-center mx-auto mb-6 fade-in-up" data-delay="100">
+            <svg class="w-8 h-8 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+        </div>
+
+        <!-- Texto -->
+        <div class="mb-8 fade-in-up" data-delay="150">
+            <h1 class="text-2xl sm:text-3xl font-bold text-white mb-3">Página não encontrada</h1>
+            <p class="text-gray-400 leading-relaxed">
+                Parece que esta página foi para outro lugar. Assim como eu na infância desmontando computadores —
+                às vezes as peças acabam em lugares inesperados! 😄
+            </p>
+        </div>
+
+        <!-- Ações -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in-up" data-delay="200">
+            <a href="/"
+               class="w-full sm:w-auto px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-blue-500/20 hover:-translate-y-0.5 text-center">
+                🏠 Voltar para o Início
+            </a>
+            <a href="/contato"
+               class="w-full sm:w-auto px-6 py-3 bg-gray-900 border border-gray-700 hover:border-blue-500/50 text-gray-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:-translate-y-0.5 text-center">
+                ✉️ Entrar em Contato
+            </a>
+        </div>
+
+        <!-- Links rápidos -->
+        <div class="mt-10 fade-in-up" data-delay="300">
+            <p class="text-xs text-gray-600 uppercase tracking-widest font-medium mb-4">Ou navegue por aqui</p>
+            <div class="flex flex-wrap items-center justify-center gap-2">
+                <a href="/sobre"       class="px-3 py-1.5 text-xs text-gray-400 hover:text-blue-400 hover:bg-blue-500/10 border border-gray-800 hover:border-blue-500/30 rounded-lg transition-all duration-200">Sobre</a>
+                <a href="/habilidades" class="px-3 py-1.5 text-xs text-gray-400 hover:text-blue-400 hover:bg-blue-500/10 border border-gray-800 hover:border-blue-500/30 rounded-lg transition-all duration-200">Habilidades</a>
+                <a href="/projetos"    class="px-3 py-1.5 text-xs text-gray-400 hover:text-blue-400 hover:bg-blue-500/10 border border-gray-800 hover:border-blue-500/30 rounded-lg transition-all duration-200">Projetos</a>
+                <a href="/dashboards"  class="px-3 py-1.5 text-xs text-gray-400 hover:text-blue-400 hover:bg-blue-500/10 border border-gray-800 hover:border-blue-500/30 rounded-lg transition-all duration-200">Dashboards</a>
+                <a href="/curriculo"   class="px-3 py-1.5 text-xs text-gray-400 hover:text-blue-400 hover:bg-blue-500/10 border border-gray-800 hover:border-blue-500/30 rounded-lg transition-all duration-200">Currículo</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}
