@@ -92,10 +92,10 @@ Acesse o [painel de controle da Hostinger](https://hpanel.hostinger.com):
 2. Clique em **"DNS / Nameservers"** → **"Gerenciar DNS"**
 3. Adicione os seguintes registros:
 
-| Tipo  | Nome | Valor                              | TTL   |
-|-------|------|------------------------------------|-------|
-| A     | @    | `IP_DO_RENDER`                     | 14400 |
-| CNAME | www  | `robertofausto.onrender.com`       | 14400 |
+| Tipo  | Nome | Valor                              | TTL  |
+|-------|------|------------------------------------|------|
+| A     | @    | `IP_DO_RENDER`                     | 3600 |
+| CNAME | www  | `robertofausto.onrender.com`       | 3600 |
 
 ### 3. Adicionar domínio customizado no Render
 No Render, vá em **"Settings"** → **"Custom Domains"** e adicione:
@@ -175,7 +175,3 @@ Em `templates/projetos.html`, copie um dos blocos `<article>` e ajuste com as in
 ## 📜 Licença
 
 MIT License — veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-*Feito com 💙 usando Python, Flask e Tailwind CSS*
