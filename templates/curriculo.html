@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+
+{% block title %}Currículo | Roberto Fausto{% endblock %}
+{% block og_title %}Currículo — Roberto Fausto{% endblock %}
+
+{% block content %}
+
+<section class="py-20 min-h-screen">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Cabeçalho -->
+        <div class="text-center mb-10 fade-in-up">
+            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">Perfil Profissional</p>
+            <h1 class="text-4xl sm:text-5xl font-black mb-4">
+                <span class="gradient-text">Currículo</span>
+            </h1>
+            <p class="text-gray-400 mb-6">Versão interativa do meu currículo profissional.</p>
+
+            <!-- Botão Download PDF -->
+            <a href="#"
+               class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:-translate-y-1"
+               aria-label="Baixar currículo em PDF">
+                <!-- Ícone de download -->
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                </svg>
+                <span>Download PDF</span>
+            </a>
+        </div>
+
+        <!-- ---- Cabeçalho do CV ---- -->
+        <div class="bg-gradient-to-r from-blue-600/10 to-purple-600/10 border border-blue-500/20 rounded-2xl p-8 mb-6 text-center fade-in-up" data-delay="100">
+            <h2 class="text-3xl font-black text-white mb-1">Roberto Fausto</h2>
+            <p class="text-blue-400 font-semibold text-lg mb-3">Desenvolvedor | Analista de Sistemas</p>
+            <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-400">
+                <span class="flex items-center space-x-1">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    <span>contato@robertofausto.com.br</span>
+                </span>
+                <span class="flex items-center space-x-1">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>github.com/Beto2024</span>
+                </span>
+                <span class="flex items-center space-x-1">
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    <span>Brasil</span>
+                </span>
+            </div>
+        </div>
+
+        <!-- ---- Formação Acadêmica ---- -->
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 mb-6 fade-in-up" data-delay="150">
+            <div class="flex items-center space-x-3 mb-5">
+                <div class="w-8 h-8 bg-purple-500/10 rounded-lg flex items-center justify-center">
+                    <span class="text-base">🎓</span>
+                </div>
+                <h3 class="text-lg font-bold text-white">Formação Acadêmica</h3>
+            </div>
+            <div class="border-l-2 border-purple-500/30 pl-4">
+                <div class="flex flex-wrap items-start justify-between gap-2">
+                    <div>
+                        <p class="font-semibold text-white">Análise e Desenvolvimento de Sistemas</p>
+                        <p class="text-sm text-gray-400 mt-0.5">Tecnólogo — Graduação</p>
+                    </div>
+                    <span class="text-xs font-medium bg-purple-500/10 text-purple-400 border border-purple-500/20 px-3 py-1 rounded-full whitespace-nowrap">Concluído</span>
+                </div>
+                <ul class="mt-3 space-y-1 text-sm text-gray-400">
+                    <li class="flex items-start space-x-2">
+                        <span class="text-purple-400 mt-0.5">▸</span>
+                        <span>Desenvolvimento de sistemas web e mobile</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-purple-400 mt-0.5">▸</span>
+                        <span>Banco de dados relacional e modelagem de dados</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-purple-400 mt-0.5">▸</span>
+                        <span>Engenharia de software, arquitetura e boas práticas</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-purple-400 mt-0.5">▸</span>
+                        <span>Análise de sistemas e levantamento de requisitos</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ---- Experiência Técnica ---- -->
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 mb-6 fade-in-up" data-delay="200">
+            <div class="flex items-center space-x-3 mb-5">
+                <div class="w-8 h-8 bg-blue-500/10 rounded-lg flex items-center justify-center">
+                    <span class="text-base">💼</span>
+                </div>
+                <h3 class="text-lg font-bold text-white">Experiência Técnica</h3>
+            </div>
+            <div class="border-l-2 border-blue-500/30 pl-4">
+                <div class="flex flex-wrap items-start justify-between gap-2">
+                    <div>
+                        <p class="font-semibold text-white">Suporte Técnico Informal & Manutenção de Computadores</p>
+                        <p class="text-sm text-gray-400 mt-0.5">Autônomo</p>
+                    </div>
+                    <span class="text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 px-3 py-1 rounded-full whitespace-nowrap">Desde a Infância</span>
+                </div>
+                <ul class="mt-3 space-y-1 text-sm text-gray-400">
+                    <li class="flex items-start space-x-2">
+                        <span class="text-blue-400 mt-0.5">▸</span>
+                        <span>Montagem e desmontagem de computadores desktop e notebooks</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-blue-400 mt-0.5">▸</span>
+                        <span>Formatação e instalação de sistemas operacionais (Windows, Linux)</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-blue-400 mt-0.5">▸</span>
+                        <span>Instalação e atualização de drivers e configuração de hardware</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-blue-400 mt-0.5">▸</span>
+                        <span>Diagnóstico e resolução de problemas técnicos complexos</span>
+                    </li>
+                    <li class="flex items-start space-x-2">
+                        <span class="text-blue-400 mt-0.5">▸</span>
+                        <span>Configuração de redes domésticas e empresariais</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ---- Conhecimentos Técnicos ---- -->
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 mb-6 fade-in-up" data-delay="250">
+            <div class="flex items-center space-x-3 mb-5">
+                <div class="w-8 h-8 bg-cyan-500/10 rounded-lg flex items-center justify-center">
+                    <span class="text-base">🛠️</span>
+                </div>
+                <h3 class="text-lg font-bold text-white">Conhecimentos Técnicos</h3>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-blue-400">🐍</span><span>Python (desenvolvimento, automação)</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-red-400">🌶️</span><span>Flask (web framework backend)</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-yellow-400">📊</span><span>Power BI (dashboards e relatórios)</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-purple-400">🗄️</span><span>SQL (MySQL, SQLite, PostgreSQL)</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-orange-400">🎨</span><span>HTML, CSS, Tailwind CSS</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-green-400">📂</span><span>Git e GitHub (controle de versão)</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-cyan-400">🔧</span><span>Hardware, manutenção e suporte técnico</span>
+                </div>
+                <div class="flex items-center space-x-2 text-sm text-gray-300">
+                    <span class="text-pink-400">🧩</span><span>Resolução de problemas técnicos</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---- Linha de 2 colunas: Idiomas + Certificações ---- -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 fade-in-up" data-delay="300">
+
+            <!-- Idiomas -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="w-8 h-8 bg-green-500/10 rounded-lg flex items-center justify-center">
+                        <span class="text-base">🌐</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Idiomas</h3>
+                </div>
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-sm">🇧🇷</span>
+                            <span class="text-sm font-medium text-gray-200">Português</span>
+                        </div>
+                        <span class="text-xs font-medium bg-green-500/10 text-green-400 border border-green-500/20 px-2.5 py-1 rounded-full">Nativo</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-sm">🇺🇸</span>
+                            <span class="text-sm font-medium text-gray-200">Inglês</span>
+                        </div>
+                        <span class="text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 px-2.5 py-1 rounded-full">Técnico/Leitura</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certificações -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="w-8 h-8 bg-yellow-500/10 rounded-lg flex items-center justify-center">
+                        <span class="text-base">🏆</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Certificações</h3>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center py-4">
+                    <div class="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center mb-2">
+                        <span class="text-xl">⏳</span>
+                    </div>
+                    <p class="text-sm text-gray-500">Em breve</p>
+                    <p class="text-xs text-gray-600 mt-1">Certificações em andamento</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

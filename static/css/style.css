@@ -1,0 +1,262 @@
+/* ============================================================
+   style.css — Estilos customizados para Roberto Fausto
+   ============================================================ */
+
+/* ---------- Importação de fonte ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ---------- Variáveis ---------- */
+:root {
+    --gradient-start: #3b82f6;
+    --gradient-end: #8b5cf6;
+    --bg-primary: #030712;
+    --bg-card: #111827;
+    --border-color: rgba(59, 130, 246, 0.2);
+    --transition-speed: 0.3s;
+}
+
+/* ---------- Base ---------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-primary);
+    color: #f9fafb;
+    overflow-x: hidden;
+}
+
+/* ---------- Scrollbar customizada ---------- */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #2563eb, #7c3aed);
+}
+
+/* ---------- Gradiente animado para títulos ---------- */
+@keyframes gradient-shift {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6, #60a5fa);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-shift 4s ease infinite;
+}
+
+/* ---------- Animação fade-in-up ---------- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ---------- Animação fade-in ---------- */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+/* ---------- Barras de progresso ---------- */
+.progress-bar-fill {
+    width: 0;
+    transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+}
+
+.progress-bar-fill.animated {
+    /* largura será definida pelo JS via atributo data-width */
+}
+
+/* ---------- Cards com hover ---------- */
+.card-hover {
+    transition: transform var(--transition-speed) ease,
+                box-shadow var(--transition-speed) ease,
+                border-color var(--transition-speed) ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+    border-color: rgba(59, 130, 246, 0.5);
+}
+
+/* ---------- Navbar ---------- */
+#navbar {
+    transition: background-color 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease;
+}
+
+#navbar.scrolled {
+    background-color: rgba(3, 7, 18, 0.95);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 1px 0 rgba(59, 130, 246, 0.15);
+}
+
+/* ---------- Link ativo na navbar ---------- */
+.nav-link {
+    position: relative;
+    transition: color var(--transition-speed) ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    transition: width var(--transition-speed) ease;
+    border-radius: 1px;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* ---------- Hero typing effect ---------- */
+@keyframes blink-caret {
+    0%, 100% { border-color: transparent; }
+    50%       { border-color: #60a5fa; }
+}
+
+.typing-cursor {
+    border-right: 3px solid #60a5fa;
+    animation: blink-caret 0.9s step-end infinite;
+    padding-right: 3px;
+}
+
+/* ---------- Botão com gradiente ---------- */
+.btn-gradient {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.btn-gradient:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* ---------- Efeito glow sutil nos cards ---------- */
+.glow-blue {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
+/* ---------- Timeline ---------- */
+.timeline-line {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #3b82f6, #8b5cf6, transparent);
+}
+
+/* ---------- Efeito hero gradiente de fundo ---------- */
+.hero-bg {
+    background:
+        radial-gradient(ellipse at 20% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
+        #030712;
+}
+
+/* ---------- Badge de tecnologia ---------- */
+.tech-badge {
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+.tech-badge:hover {
+    background-color: rgba(59, 130, 246, 0.3);
+    color: #93c5fd;
+}
+
+/* ---------- Menu mobile ---------- */
+#mobile-menu {
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+#mobile-menu.open {
+    max-height: 400px;
+    opacity: 1;
+}
+
+/* ---------- Formulário de contato ---------- */
+.form-input {
+    transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.form-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    outline: none;
+}
+
+/* ---------- Animação stagger para listas ---------- */
+.stagger-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stagger-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ---------- Placeholder de dashboard ---------- */
+.dashboard-placeholder {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    border: 1px dashed rgba(59, 130, 246, 0.3);
+    transition: border-color var(--transition-speed) ease;
+}
+
+.dashboard-placeholder:hover {
+    border-color: rgba(59, 130, 246, 0.6);
+}

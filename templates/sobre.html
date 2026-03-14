@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+
+{% block title %}Sobre Mim | Roberto Fausto{% endblock %}
+{% block og_title %}Sobre Roberto Fausto — Desenvolvedor & Analista de Sistemas{% endblock %}
+
+{% block content %}
+
+<section class="py-20 min-h-screen">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Cabeçalho da página -->
+        <div class="text-center mb-16 fade-in-up">
+            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">Conheça minha história</p>
+            <h1 class="text-4xl sm:text-5xl font-black mb-4">
+                <span class="gradient-text">Sobre Mim</span>
+            </h1>
+            <p class="text-gray-400 max-w-xl mx-auto">Uma trajetória construída por curiosidade, dedicação e paixão genuína por tecnologia.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+
+            <!-- Coluna esquerda — Avatar e info rápida -->
+            <div class="lg:col-span-1 fade-in-up" data-delay="100">
+
+                <!-- Placeholder de foto -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 text-center mb-6 card-hover">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg shadow-blue-500/20">
+                        <svg class="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-bold text-white mb-1">Roberto Fausto</h2>
+                    <p class="text-sm text-blue-400 font-medium mb-3">Desenvolvedor · ADS</p>
+                    <p class="text-xs text-gray-500">📍 Brasil</p>
+                </div>
+
+                <!-- Info rápida -->
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 space-y-4 card-hover">
+                    <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-widest">Informações</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3">
+                            <span class="text-blue-400 mt-0.5">🎓</span>
+                            <div>
+                                <p class="text-xs text-gray-500">Formação</p>
+                                <p class="text-sm text-gray-200 font-medium">Análise e Desenvolvimento de Sistemas</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-purple-400 mt-0.5">💻</span>
+                            <div>
+                                <p class="text-xs text-gray-500">Foco</p>
+                                <p class="text-sm text-gray-200 font-medium">Desenvolvimento Web · Data Analytics</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-green-400 mt-0.5">✅</span>
+                            <div>
+                                <p class="text-xs text-gray-500">Status</p>
+                                <p class="text-sm text-green-400 font-medium">Disponível para oportunidades</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Coluna direita — Timeline -->
+            <div class="lg:col-span-2 fade-in-up" data-delay="200">
+
+                <h2 class="text-2xl font-bold text-white mb-8">Minha Trajetória</h2>
+
+                <!-- Timeline -->
+                <div class="relative">
+                    <!-- Linha vertical -->
+                    <div class="timeline-line" aria-hidden="true"></div>
+
+                    <!-- Item 1 — Infância -->
+                    <div class="relative pl-14 pb-12 stagger-item">
+                        <div class="absolute left-0 w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center text-xl shadow-lg shadow-blue-500/30 z-10">
+                            🖥️
+                        </div>
+                        <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500/40 transition-colors duration-300">
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                                <h3 class="text-lg font-bold text-white">Infância — A Curiosidade Começa</h3>
+                                <span class="text-xs font-medium bg-blue-500/10 text-blue-400 border border-blue-500/20 px-3 py-1 rounded-full">Primeiros Passos</span>
+                            </div>
+                            <p class="text-gray-400 leading-relaxed">
+                                Desde cedo, minha curiosidade me levou a desmontar e montar computadores, formatar máquinas,
+                                instalar sistemas operacionais e resolver problemas de configuração e drivers. O que para
+                                muitos era um problema, para mim era um desafio empolgante a ser resolvido.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 — Formação -->
+                    <div class="relative pl-14 pb-12 stagger-item">
+                        <div class="absolute left-0 w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-700 rounded-xl flex items-center justify-center text-xl shadow-lg shadow-purple-500/30 z-10">
+                            🎓
+                        </div>
+                        <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-purple-500/40 transition-colors duration-300">
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                                <h3 class="text-lg font-bold text-white">Formação Acadêmica</h3>
+                                <span class="text-xs font-medium bg-purple-500/10 text-purple-400 border border-purple-500/20 px-3 py-1 rounded-full">Graduação</span>
+                            </div>
+                            <p class="text-gray-400 leading-relaxed">
+                                Graduado em Análise e Desenvolvimento de Sistemas, consolidei meu conhecimento prático
+                                com fundamentos teóricos sólidos em desenvolvimento de software, banco de dados, arquitetura
+                                de sistemas e boas práticas de engenharia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 — Hoje -->
+                    <div class="relative pl-14 stagger-item">
+                        <div class="absolute left-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl flex items-center justify-center text-xl shadow-lg shadow-pink-500/30 z-10">
+                            🚀
+                        </div>
+                        <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-pink-500/40 transition-colors duration-300">
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                                <h3 class="text-lg font-bold text-white">Hoje — Do Hardware ao Software</h3>
+                                <span class="text-xs font-medium bg-pink-500/10 text-pink-400 border border-pink-500/20 px-3 py-1 rounded-full">Presente</span>
+                            </div>
+                            <p class="text-gray-400 leading-relaxed">
+                                Hoje, combino minha experiência prática com habilidades de desenvolvimento para criar
+                                soluções completas — do hardware ao software. Desenvolvo aplicações com Python e Flask,
+                                crio dashboards analíticos no Power BI e busco continuamente evoluir como profissional de tecnologia.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Valores pessoais -->
+                <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 stagger-container">
+                    <div class="stagger-item bg-gray-900/50 border border-gray-800 rounded-xl p-4 text-center">
+                        <div class="text-2xl mb-2">🎯</div>
+                        <p class="text-sm font-semibold text-white">Foco em Resultados</p>
+                        <p class="text-xs text-gray-500 mt-1">Busco soluções práticas e eficientes</p>
+                    </div>
+                    <div class="stagger-item bg-gray-900/50 border border-gray-800 rounded-xl p-4 text-center">
+                        <div class="text-2xl mb-2">📚</div>
+                        <p class="text-sm font-semibold text-white">Aprendizado Contínuo</p>
+                        <p class="text-xs text-gray-500 mt-1">Sempre explorando novas tecnologias</p>
+                    </div>
+                    <div class="stagger-item bg-gray-900/50 border border-gray-800 rounded-xl p-4 text-center">
+                        <div class="text-2xl mb-2">🤝</div>
+                        <p class="text-sm font-semibold text-white">Trabalho em Equipe</p>
+                        <p class="text-xs text-gray-500 mt-1">Colaborativo e comunicativo</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
