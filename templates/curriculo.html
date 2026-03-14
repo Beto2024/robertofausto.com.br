@@ -17,7 +17,8 @@
             <p class="text-gray-400 mb-6">Versão interativa do meu currículo profissional.</p>
 
             <!-- Botão Download PDF -->
-            <a href="#"
+            <a href="{{ url_for('static', filename='Roberto_Fausto_Curriculo.pdf') }}"
+               download="Roberto_Fausto_Curriculo.pdf"
                class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:-translate-y-1"
                aria-label="Baixar currículo em PDF">
                 <!-- Ícone de download -->
