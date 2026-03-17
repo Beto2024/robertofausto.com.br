@@ -1,0 +1,24 @@
+{
+  "name": "Roberto Fausto - Indicadores de RH",
+  "dataColors": [
+    "#A855F7",
+    "#C084FC",
+    "#7C3AED",
+    "#D8B4FE",
+    "#6D28D9",
+    "#F3E8FF",
+    "#5B21B6",
+    "#E9D5FF",
+    "#8B5CF6",
+    "#7C3AED"
+  ],
+  "background": "#0F172A",
+  "foreground": "#F1F5F9",
+  "tableAccent": "#A855F7",
+  "maximum": "#10B981",
+  "center": "#F59E0B",
+  "minimum": "#EF4444",
+  "good": "#10B981",
+  "neutral": "#94A3B8",
+  "bad": "#EF4444"
+}
