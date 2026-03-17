@@ -1,0 +1,137 @@
+{
+  "name": "Roberto Fausto — Análise de Vendas",
+  "dataColors": [
+    "#3B82F6",
+    "#60A5FA",
+    "#1D4ED8",
+    "#93C5FD",
+    "#2563EB",
+    "#DBEAFE",
+    "#1E40AF",
+    "#BFDBFE",
+    "#3B82F6",
+    "#1D4ED8"
+  ],
+  "background": "#0F172A",
+  "foreground": "#F1F5F9",
+  "tableAccent": "#3B82F6",
+  "maximum": "#10B981",
+  "center": "#F59E0B",
+  "minimum": "#EF4444",
+  "good": "#10B981",
+  "neutral": "#94A3B8",
+  "bad": "#EF4444",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1E293B" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#334155" } },
+            "show": true,
+            "radius": 12
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "*": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "color": { "solid": { "color": "#94A3B8" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0F172A" } },
+            "transparency": 0
+          }
+        ],
+        "wallpaper": [
+          {
+            "color": { "solid": { "color": "#0F172A" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#F1F5F9" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#64748B" } },
+            "fontSize": 10,
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "defaultColor": { "solid": { "color": "#3B82F6" } }
+          }
+        ],
+        "lineStyles": [
+          {
+            "strokeWidth": 3
+          }
+        ]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "defaultColor": { "solid": { "color": "#3B82F6" } }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "defaultColor": { "solid": { "color": "#3B82F6" } }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [
+          {
+            "outlineColor": { "solid": { "color": "#334155" } },
+            "outlineWeight": 1
+          }
+        ],
+        "selection": [
+          {
+            "selectAllCheckboxEnabled": true,
+            "singleSelect": false
+          }
+        ]
+      }
+    }
+  }
+}
