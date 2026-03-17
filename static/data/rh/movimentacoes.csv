@@ -1,0 +1,121 @@
+ID,ColaboradorID,Tipo,Data,Motivo
+1,1,Admissão,2024-04-22,Expansão de equipe
+2,2,Admissão,2023-12-27,Substituição
+3,3,Admissão,2018-04-14,Substituição
+4,4,Admissão,2019-10-22,Substituição
+5,5,Admissão,2018-09-12,Expansão de equipe
+6,6,Admissão,2018-05-13,Substituição
+7,7,Admissão,2024-04-20,Expansão de equipe
+8,8,Admissão,2023-09-24,Substituição
+9,9,Admissão,2018-07-12,Projeto novo
+10,10,Admissão,2021-07-04,Substituição
+11,11,Admissão,2020-04-11,Crescimento da empresa
+12,12,Admissão,2022-02-15,Expansão de equipe
+13,13,Admissão,2020-03-03,Projeto novo
+14,14,Admissão,2019-12-13,Expansão de equipe
+15,15,Admissão,2021-02-17,Substituição
+16,16,Admissão,2020-11-10,Crescimento da empresa
+17,16,Demissão Involuntária,2024-10-02,Corte de custos
+18,17,Admissão,2021-08-14,Substituição
+19,18,Admissão,2021-05-18,Substituição
+20,19,Admissão,2021-07-25,Crescimento da empresa
+21,20,Admissão,2023-09-01,Substituição
+22,21,Admissão,2021-12-02,Substituição
+23,22,Admissão,2021-04-17,Projeto novo
+24,23,Admissão,2024-04-18,Substituição
+25,24,Admissão,2021-11-18,Projeto novo
+26,25,Admissão,2020-09-25,Crescimento da empresa
+27,26,Admissão,2019-04-10,Expansão de equipe
+28,27,Admissão,2023-10-19,Substituição
+29,28,Admissão,2022-12-31,Crescimento da empresa
+30,29,Admissão,2018-12-04,Crescimento da empresa
+31,30,Admissão,2018-09-26,Substituição
+32,31,Admissão,2022-10-04,Expansão de equipe
+33,32,Admissão,2022-11-18,Expansão de equipe
+34,33,Admissão,2021-09-20,Substituição
+35,33,Demissão Involuntária,2025-02-21,Reestruturação
+36,34,Admissão,2020-10-28,Expansão de equipe
+37,35,Admissão,2022-07-28,Substituição
+38,36,Admissão,2018-03-11,Crescimento da empresa
+39,37,Admissão,2018-09-17,Expansão de equipe
+40,38,Admissão,2018-10-25,Expansão de equipe
+41,39,Admissão,2021-05-19,Expansão de equipe
+42,40,Admissão,2018-05-07,Crescimento da empresa
+43,41,Admissão,2022-05-21,Substituição
+44,42,Admissão,2019-08-14,Expansão de equipe
+45,43,Admissão,2018-02-15,Crescimento da empresa
+46,44,Admissão,2018-01-21,Crescimento da empresa
+47,45,Admissão,2018-12-15,Projeto novo
+48,46,Admissão,2023-10-01,Expansão de equipe
+49,46,Demissão Involuntária,2025-03-21,Reestruturação
+50,47,Admissão,2020-11-01,Crescimento da empresa
+51,48,Admissão,2024-02-27,Crescimento da empresa
+52,49,Admissão,2018-10-03,Projeto novo
+53,50,Admissão,2021-09-17,Expansão de equipe
+54,51,Admissão,2018-10-13,Crescimento da empresa
+55,52,Admissão,2021-06-06,Substituição
+56,53,Admissão,2021-07-19,Projeto novo
+57,54,Admissão,2020-06-26,Crescimento da empresa
+58,55,Admissão,2022-01-12,Substituição
+59,55,Demissão Involuntária,2022-12-29,Corte de custos
+60,56,Admissão,2023-03-11,Projeto novo
+61,57,Admissão,2019-12-21,Substituição
+62,58,Admissão,2019-07-28,Expansão de equipe
+63,59,Admissão,2018-11-10,Expansão de equipe
+64,60,Admissão,2022-07-18,Expansão de equipe
+65,61,Admissão,2024-02-05,Expansão de equipe
+66,62,Admissão,2019-09-01,Crescimento da empresa
+67,63,Admissão,2021-04-06,Substituição
+68,63,Demissão Involuntária,2023-07-11,Justa causa
+69,64,Admissão,2022-01-30,Expansão de equipe
+70,65,Admissão,2019-11-11,Substituição
+71,66,Admissão,2024-05-08,Crescimento da empresa
+72,67,Admissão,2023-06-04,Projeto novo
+73,68,Admissão,2020-08-07,Projeto novo
+74,68,Demissão Involuntária,2024-02-05,Justa causa
+75,69,Admissão,2020-04-26,Projeto novo
+76,70,Admissão,2023-02-06,Crescimento da empresa
+77,71,Admissão,2023-11-06,Substituição
+78,72,Admissão,2024-05-24,Crescimento da empresa
+79,73,Admissão,2018-11-15,Crescimento da empresa
+80,74,Admissão,2021-12-16,Substituição
+81,75,Admissão,2018-01-28,Projeto novo
+82,76,Admissão,2018-11-12,Crescimento da empresa
+83,77,Admissão,2019-10-07,Projeto novo
+84,78,Admissão,2022-08-26,Projeto novo
+85,79,Admissão,2023-05-16,Projeto novo
+86,80,Admissão,2022-08-11,Crescimento da empresa
+87,80,Demissão Voluntária,2025-03-01,Oportunidade de mercado
+88,30,Promoção,2024-09-28,Mérito
+89,21,Promoção,2023-06-25,Mérito
+90,28,Promoção,2025-06-03,Mérito
+91,52,Promoção,2024-04-29,Mérito
+92,71,Promoção,2025-09-15,Mérito
+93,7,Promoção,2025-07-11,Mérito
+94,50,Promoção,2022-09-27,Mérito
+95,12,Promoção,2023-12-09,Mérito
+96,61,Promoção,2025-12-08,Mérito
+97,56,Promoção,2024-06-08,Mérito
+98,9,Promoção,2022-06-23,Mérito
+99,29,Promoção,2024-01-30,Mérito
+100,11,Promoção,2024-09-09,Mérito
+101,5,Promoção,2024-01-03,Mérito
+102,52,Promoção,2025-11-14,Mérito
+103,67,Promoção,2025-03-23,Mérito
+104,77,Promoção,2021-01-31,Mérito
+105,23,Promoção,2025-12-27,Mérito
+106,57,Promoção,2021-01-10,Mérito
+107,26,Promoção,2023-06-24,Mérito
+108,25,Promoção,2021-12-02,Mérito
+109,77,Promoção,2023-08-17,Mérito
+110,67,Promoção,2025-01-26,Mérito
+111,79,Promoção,2024-11-04,Mérito
+112,5,Promoção,2023-09-24,Mérito
+113,31,Promoção,2025-08-04,Mérito
+114,1,Promoção,2025-12-27,Mérito
+115,21,Promoção,2023-05-28,Mérito
+116,36,Promoção,2023-09-02,Mérito
+117,51,Promoção,2024-04-29,Mérito
+118,76,Promoção,2022-02-09,Mérito
+119,67,Promoção,2024-06-18,Mérito
+120,9,Promoção,2020-07-15,Mérito

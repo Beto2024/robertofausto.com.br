@@ -64,3 +64,8 @@ htmlcov/
 
 # Node (se usar Tailwind CLI no futuro)
 node_modules/
+
+# Garantir que os CSVs de dados dos dashboards sejam versionados
+!static/data/
+!static/data/**
+!static/data/**/*.csv

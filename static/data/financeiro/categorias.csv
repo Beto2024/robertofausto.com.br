@@ -1,0 +1,21 @@
+ID,Nome,Grupo
+1,Vendas de Produtos,Receita Operacional
+2,Prestação de Serviços,Receita Operacional
+3,Royalties e Licenças,Receita Operacional
+4,Rendimentos Financeiros,Receita Não-Operacional
+5,Venda de Ativo,Receita Não-Operacional
+6,Custo de Mercadorias Vendidas,Custo Variável
+7,Frete e Logística,Custo Variável
+8,Comissões de Venda,Custo Variável
+9,Aluguel,Custo Fixo
+10,Salários e Encargos,Custo Fixo
+11,"Utilities (Energia, Água)",Custo Fixo
+12,Marketing e Publicidade,Despesa Operacional
+13,Viagens e Representação,Despesa Operacional
+14,Software e Licenças TI,Despesa Operacional
+15,Manutenção e Conservação,Despesa Operacional
+16,Consultoria Externa,Despesa Operacional
+17,Treinamento e Desenvolvimento,Despesa Operacional
+18,Equipamentos,Investimento
+19,Infraestrutura TI,Investimento
+20,Veículos,Investimento

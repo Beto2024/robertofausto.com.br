@@ -1,0 +1,31 @@
+ID,Nome,Categoria,Custo
+1,Notebook Pro,Eletrônicos,1800
+2,Smartphone Ultra,Eletrônicos,900
+3,Tablet 10,Eletrônicos,500
+4,Fone Bluetooth,Eletrônicos,150
+5,Monitor 24,Eletrônicos,700
+6,Teclado Sem Fio,Eletrônicos,120
+7,Mouse Ergonômico,Eletrônicos,80
+8,Café Premium 500g,Alimentos,22
+9,Chá Verde cx 20,Alimentos,12
+10,Barra Proteína,Alimentos,8
+11,Granola Integral,Alimentos,18
+12,Azeite Extra Virgem,Alimentos,35
+13,Camisa Social,Vestuário,95
+14,Calça Jeans,Vestuário,130
+15,Camiseta Polo,Vestuário,65
+16,Tênis Casual,Vestuário,190
+17,Moletom Premium,Vestuário,150
+18,Vaso Decorativo,Casa e Decoração,85
+19,Almofada Veludo,Casa e Decoração,55
+20,Quadro Abstrato,Casa e Decoração,210
+21,Luminária Mesa,Casa e Decoração,130
+22,Tapete Sala,Casa e Decoração,280
+23,Porta Retrato,Casa e Decoração,40
+24,Resma Papel A4,Escritório,28
+25,Caneta Esferográfica cx,Escritório,15
+26,Grampeador Aço,Escritório,42
+27,Pasta Arquivo,Escritório,22
+28,Bloco de Notas,Escritório,12
+29,Calculadora Científica,Escritório,68
+30,Régua 30cm,Escritório,6
