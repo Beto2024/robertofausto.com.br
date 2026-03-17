@@ -1,0 +1,466 @@
+ID,Data,Tipo,Categoria,Subcategoria,Valor,CentroCusto
+1,2023-01-28,Receita,Royalties e Licenças,Patente,19547.79,TI
+2,2023-01-15,Receita,Royalties e Licenças,Patente,60215.57,Marketing
+3,2023-01-02,Receita,Venda de Ativo,Equipamento Obsoleto,47509.57,Marketing
+4,2023-01-21,Receita,Rendimentos Financeiros,Poupança,43745.25,Marketing
+5,2023-01-09,Despesa,Salários e Encargos,Estagiário,25057.91,Administrativo
+6,2023-01-24,Despesa,Salários e Encargos,CLT,24328.78,Comercial
+7,2023-01-23,Despesa,"Utilities (Energia, Água)",Água,13435.17,Marketing
+8,2023-01-01,Despesa,"Utilities (Energia, Água)",Energia Elétrica,5264.45,TI
+9,2023-01-22,Despesa,Custo de Mercadorias Vendidas,Importação,11454.76,Marketing
+10,2023-01-09,Despesa,Custo de Mercadorias Vendidas,Produto B,15054.51,TI
+11,2023-01-02,Despesa,Custo de Mercadorias Vendidas,Produto B,13149.15,Recursos Humanos
+12,2023-01-05,Despesa,Marketing e Publicidade,Materiais Gráficos,10420.85,Financeiro
+13,2023-01-09,Despesa,Marketing e Publicidade,Eventos,8652.19,Diretoria
+14,2023-02-09,Receita,Vendas de Produtos,Online,56520.73,Marketing
+15,2023-02-03,Receita,Royalties e Licenças,Patente,25527.79,TI
+16,2023-02-02,Receita,Rendimentos Financeiros,Poupança,40258.38,Operações
+17,2023-02-16,Receita,Prestação de Serviços,Consultoria,43637.36,Administrativo
+18,2023-02-04,Receita,Prestação de Serviços,Consultoria,56956.41,Administrativo
+19,2023-02-15,Despesa,"Utilities (Energia, Água)",Internet,21083.45,Recursos Humanos
+20,2023-02-19,Despesa,Aluguel,Filial RJ,6822.99,Diretoria
+21,2023-02-05,Despesa,Aluguel,Sede,27412.81,TI
+22,2023-02-11,Despesa,Frete e Logística,Frete Internacional,4728.93,TI
+23,2023-02-25,Despesa,Comissões de Venda,Marketing,14736.9,Diretoria
+24,2023-02-24,Despesa,Frete e Logística,Frete Nacional,9270.43,Comercial
+25,2023-02-27,Despesa,Manutenção e Conservação,Equipamentos,11495.71,Recursos Humanos
+26,2023-02-12,Despesa,Consultoria Externa,Contábil,6888.34,Operações
+27,2023-03-21,Receita,Vendas de Produtos,Linha A,56097.71,Marketing
+28,2023-03-11,Receita,Venda de Ativo,Equipamento Obsoleto,70467.24,Diretoria
+29,2023-03-06,Receita,Royalties e Licenças,Marca Registrada,57106.52,Administrativo
+30,2023-03-13,Receita,Prestação de Serviços,Consultoria,34426.57,Marketing
+31,2023-03-15,Despesa,Aluguel,Filial SP,27130.35,Financeiro
+32,2023-03-24,Despesa,Aluguel,Filial SP,9827.32,Diretoria
+33,2023-03-18,Despesa,Salários e Encargos,Estagiário,6574.82,Operações
+34,2023-03-27,Despesa,Salários e Encargos,PJ,18348.5,TI
+35,2023-03-26,Despesa,Frete e Logística,Last Mile,3008.98,TI
+36,2023-03-26,Despesa,Frete e Logística,Last Mile,4127.37,Diretoria
+37,2023-03-03,Despesa,Treinamento e Desenvolvimento,Treinamento Técnico,7372.8,Financeiro
+38,2023-03-16,Despesa,Manutenção e Conservação,Veículos,8192.15,TI
+39,2023-03-05,Despesa,Equipamentos,Computadores,36558.36,Financeiro
+40,2023-04-27,Receita,Vendas de Produtos,Linha A,73803.05,Diretoria
+41,2023-04-19,Receita,Venda de Ativo,Equipamento Obsoleto,26094.81,Recursos Humanos
+42,2023-04-26,Receita,Vendas de Produtos,Varejo,47314.33,Comercial
+43,2023-04-14,Receita,Vendas de Produtos,Linha C,67289.48,Administrativo
+44,2023-04-22,Receita,Royalties e Licenças,Marca Registrada,22852.16,Marketing
+45,2023-04-11,Despesa,Aluguel,Sede,19827.13,Recursos Humanos
+46,2023-04-14,Despesa,Salários e Encargos,CLT,8530.92,Marketing
+47,2023-04-08,Despesa,"Utilities (Energia, Água)",Energia Elétrica,9125.15,Financeiro
+48,2023-04-25,Despesa,Comissões de Venda,Comercial,13023.95,TI
+49,2023-04-01,Despesa,Frete e Logística,Frete Nacional,3453.01,Recursos Humanos
+50,2023-04-26,Despesa,Manutenção e Conservação,Equipamentos,8628.54,Financeiro
+51,2023-04-09,Despesa,Viagens e Representação,Hospedagem,2573.97,Diretoria
+52,2023-04-06,Despesa,Manutenção e Conservação,Veículos,3631.79,TI
+53,2023-05-20,Receita,Prestação de Serviços,Consultoria,61617.92,Operações
+54,2023-05-18,Receita,Royalties e Licenças,Marca Registrada,42221.08,Comercial
+55,2023-05-04,Receita,Vendas de Produtos,Varejo,79129.23,Marketing
+56,2023-05-15,Receita,Venda de Ativo,Equipamento Obsoleto,47990.15,Operações
+57,2023-05-26,Receita,Vendas de Produtos,Linha B,27591.73,Diretoria
+58,2023-05-02,Despesa,Aluguel,Sede,8993.99,Marketing
+59,2023-05-09,Despesa,Salários e Encargos,PJ,10239.74,Diretoria
+60,2023-05-02,Despesa,Aluguel,Filial SP,7610.53,Financeiro
+61,2023-05-04,Despesa,Aluguel,Sede,17126.53,Comercial
+62,2023-05-14,Despesa,Comissões de Venda,Comercial,12435.71,Marketing
+63,2023-05-11,Despesa,Custo de Mercadorias Vendidas,Produto B,16021.56,Recursos Humanos
+64,2023-05-28,Despesa,Custo de Mercadorias Vendidas,Produto B,15279.46,Administrativo
+65,2023-05-16,Despesa,Marketing e Publicidade,Google Ads,6180.89,Administrativo
+66,2023-05-20,Despesa,Viagens e Representação,Viagem Internacional,3377.82,Financeiro
+67,2023-06-24,Receita,Royalties e Licenças,Marca Registrada,23866.3,Marketing
+68,2023-06-05,Receita,Royalties e Licenças,Marca Registrada,28143.71,TI
+69,2023-06-28,Receita,Royalties e Licenças,Patente,23872.6,Diretoria
+70,2023-06-11,Receita,Rendimentos Financeiros,CDB,26128.09,Operações
+71,2023-06-06,Despesa,"Utilities (Energia, Água)",Água,28819.0,Recursos Humanos
+72,2023-06-16,Despesa,Salários e Encargos,CLT,26424.34,Diretoria
+73,2023-06-24,Despesa,Salários e Encargos,PJ,11979.27,Comercial
+74,2023-06-08,Despesa,Frete e Logística,Last Mile,9816.48,Financeiro
+75,2023-06-14,Despesa,Comissões de Venda,Comercial,18168.53,TI
+76,2023-06-02,Despesa,Treinamento e Desenvolvimento,Liderança,9454.67,Administrativo
+77,2023-06-23,Despesa,Manutenção e Conservação,Predial,9906.88,Diretoria
+78,2023-06-18,Despesa,Manutenção e Conservação,Predial,3645.63,Administrativo
+79,2023-06-10,Despesa,Equipamentos,Computadores,10972.04,Recursos Humanos
+80,2023-07-06,Receita,Rendimentos Financeiros,LCI,58487.31,Diretoria
+81,2023-07-01,Receita,Venda de Ativo,Imóvel,63573.64,Diretoria
+82,2023-07-13,Receita,Prestação de Serviços,Consultoria,71822.94,Marketing
+83,2023-07-28,Despesa,"Utilities (Energia, Água)",Energia Elétrica,20835.06,Administrativo
+84,2023-07-02,Despesa,"Utilities (Energia, Água)",Internet,13322.65,Administrativo
+85,2023-07-20,Despesa,Salários e Encargos,Estagiário,22451.37,Comercial
+86,2023-07-11,Despesa,"Utilities (Energia, Água)",Energia Elétrica,7023.98,Marketing
+87,2023-07-15,Despesa,Custo de Mercadorias Vendidas,Produto A,8893.19,Marketing
+88,2023-07-18,Despesa,Frete e Logística,Last Mile,5154.81,Recursos Humanos
+89,2023-07-08,Despesa,Viagens e Representação,Hospedagem,11793.77,Recursos Humanos
+90,2023-07-25,Despesa,Treinamento e Desenvolvimento,Compliance,6263.43,Comercial
+91,2023-08-09,Receita,Prestação de Serviços,Implementação,35830.15,Administrativo
+92,2023-08-12,Receita,Royalties e Licenças,Patente,18539.9,Diretoria
+93,2023-08-27,Receita,Rendimentos Financeiros,CDB,47594.26,Diretoria
+94,2023-08-18,Receita,Venda de Ativo,Imóvel,59090.04,Diretoria
+95,2023-08-22,Receita,Venda de Ativo,Equipamento Obsoleto,38929.48,Comercial
+96,2023-08-06,Despesa,Aluguel,Filial RJ,7004.26,Recursos Humanos
+97,2023-08-04,Despesa,Aluguel,Filial SP,9119.16,Diretoria
+98,2023-08-17,Despesa,Aluguel,Sede,26874.83,Operações
+99,2023-08-18,Despesa,Salários e Encargos,CLT,29239.37,Diretoria
+100,2023-08-21,Despesa,Frete e Logística,Frete Nacional,9989.48,Operações
+101,2023-08-28,Despesa,Custo de Mercadorias Vendidas,Produto B,3133.09,Marketing
+102,2023-08-21,Despesa,Frete e Logística,Last Mile,12416.68,Marketing
+103,2023-08-17,Despesa,Consultoria Externa,Estratégia,8324.41,Diretoria
+104,2023-08-05,Despesa,Manutenção e Conservação,Equipamentos,4344.91,Financeiro
+105,2023-08-12,Despesa,Software e Licenças TI,Cloud,3494.6,TI
+106,2023-09-06,Receita,Royalties e Licenças,Marca Registrada,33484.83,Operações
+107,2023-09-27,Receita,Prestação de Serviços,Implementação,78258.4,Financeiro
+108,2023-09-02,Receita,Prestação de Serviços,Suporte,30463.85,Financeiro
+109,2023-09-07,Despesa,Salários e Encargos,Estagiário,14241.8,TI
+110,2023-09-12,Despesa,"Utilities (Energia, Água)",Água,12923.59,Marketing
+111,2023-09-06,Despesa,Salários e Encargos,Estagiário,18496.66,Operações
+112,2023-09-13,Despesa,Aluguel,Depósito,28010.85,Financeiro
+113,2023-09-24,Despesa,Frete e Logística,Last Mile,4808.96,Marketing
+114,2023-09-16,Despesa,Comissões de Venda,Marketing,14698.12,Financeiro
+115,2023-09-15,Despesa,Comissões de Venda,Marketing,15113.79,Recursos Humanos
+116,2023-09-18,Despesa,Marketing e Publicidade,Google Ads,2533.66,Operações
+117,2023-09-27,Despesa,Marketing e Publicidade,Redes Sociais,5417.93,Diretoria
+118,2023-09-02,Despesa,Software e Licenças TI,CRM,2017.29,Comercial
+119,2023-09-03,Despesa,Infraestrutura TI,Backup,13807.21,Diretoria
+120,2023-10-13,Receita,Vendas de Produtos,Linha B,78429.57,Diretoria
+121,2023-10-17,Receita,Royalties e Licenças,Marca Registrada,54206.17,Marketing
+122,2023-10-28,Receita,Rendimentos Financeiros,Poupança,24616.49,Marketing
+123,2023-10-10,Receita,Rendimentos Financeiros,Poupança,39234.02,Marketing
+124,2023-10-28,Receita,Royalties e Licenças,Marca Registrada,78539.04,Comercial
+125,2023-10-26,Despesa,"Utilities (Energia, Água)",Telefone,29814.93,Operações
+126,2023-10-14,Despesa,Aluguel,Depósito,25141.82,Financeiro
+127,2023-10-05,Despesa,"Utilities (Energia, Água)",Água,19948.39,Operações
+128,2023-10-17,Despesa,Salários e Encargos,PJ,29709.56,Recursos Humanos
+129,2023-10-21,Despesa,Custo de Mercadorias Vendidas,Produto C,2119.14,Administrativo
+130,2023-10-23,Despesa,Custo de Mercadorias Vendidas,Produto B,12004.65,Comercial
+131,2023-10-10,Despesa,Custo de Mercadorias Vendidas,Importação,16981.11,TI
+132,2023-10-18,Despesa,Consultoria Externa,Estratégia,4343.06,Diretoria
+133,2023-10-01,Despesa,Viagens e Representação,Viagem Nacional,1295.24,Operações
+134,2023-10-27,Despesa,Software e Licenças TI,Segurança,11516.29,Recursos Humanos
+135,2023-11-16,Receita,Royalties e Licenças,Marca Registrada,54749.75,TI
+136,2023-11-16,Receita,Vendas de Produtos,Linha A,84118.7,Marketing
+137,2023-11-14,Receita,Venda de Ativo,Imóvel,60101.06,Diretoria
+138,2023-11-24,Receita,Vendas de Produtos,Varejo,51035.59,TI
+139,2023-11-02,Receita,Royalties e Licenças,Marca Registrada,33260.59,Marketing
+140,2023-11-06,Despesa,"Utilities (Energia, Água)",Energia Elétrica,8387.43,Operações
+141,2023-11-12,Despesa,Salários e Encargos,CLT,15487.85,Operações
+142,2023-11-03,Despesa,Salários e Encargos,Estagiário,18240.31,Comercial
+143,2023-11-04,Despesa,"Utilities (Energia, Água)",Água,9581.19,Marketing
+144,2023-11-09,Despesa,Comissões de Venda,Canal Digital,16397.79,Marketing
+145,2023-11-12,Despesa,Custo de Mercadorias Vendidas,Produto B,11619.57,TI
+146,2023-11-12,Despesa,Custo de Mercadorias Vendidas,Importação,11327.07,Administrativo
+147,2023-11-05,Despesa,Viagens e Representação,Hospedagem,2126.6,Comercial
+148,2023-11-18,Despesa,Viagens e Representação,Hospedagem,9746.17,Recursos Humanos
+149,2023-11-03,Despesa,Manutenção e Conservação,Predial,6065.4,Financeiro
+150,2023-12-23,Receita,Rendimentos Financeiros,Poupança,56450.47,Financeiro
+151,2023-12-20,Receita,Rendimentos Financeiros,LCI,109248.32,Marketing
+152,2023-12-01,Receita,Prestação de Serviços,Implementação,91714.75,Recursos Humanos
+153,2023-12-05,Despesa,Aluguel,Filial SP,26420.38,Operações
+154,2023-12-03,Despesa,Aluguel,Depósito,10246.03,Recursos Humanos
+155,2023-12-16,Despesa,Aluguel,Depósito,5470.16,TI
+156,2023-12-22,Despesa,Custo de Mercadorias Vendidas,Produto A,2590.27,Diretoria
+157,2023-12-02,Despesa,Custo de Mercadorias Vendidas,Produto A,18353.53,Operações
+158,2023-12-20,Despesa,Marketing e Publicidade,Redes Sociais,9606.08,Comercial
+159,2023-12-01,Despesa,Viagens e Representação,Viagem Nacional,8376.61,Financeiro
+160,2023-12-19,Despesa,Veículos,Entrega,47383.02,Marketing
+161,2024-01-20,Receita,Venda de Ativo,Equipamento Obsoleto,52601.71,Recursos Humanos
+162,2024-01-25,Receita,Vendas de Produtos,Linha A,54618.5,Comercial
+163,2024-01-06,Receita,Prestação de Serviços,Implementação,62141.72,TI
+164,2024-01-28,Despesa,Aluguel,Depósito,28011.93,Marketing
+165,2024-01-15,Despesa,"Utilities (Energia, Água)",Energia Elétrica,19734.51,Financeiro
+166,2024-01-14,Despesa,Salários e Encargos,CLT,29532.53,Comercial
+167,2024-01-11,Despesa,Custo de Mercadorias Vendidas,Produto A,15705.37,Diretoria
+168,2024-01-16,Despesa,Custo de Mercadorias Vendidas,Produto C,11355.1,Operações
+169,2024-01-03,Despesa,Comissões de Venda,Marketing,14998.46,Diretoria
+170,2024-01-20,Despesa,Manutenção e Conservação,Veículos,4119.73,Operações
+171,2024-01-15,Despesa,Treinamento e Desenvolvimento,Treinamento Técnico,11737.97,Administrativo
+172,2024-02-03,Receita,Rendimentos Financeiros,Poupança,27271.02,Marketing
+173,2024-02-22,Receita,Prestação de Serviços,Suporte,15831.08,Recursos Humanos
+174,2024-02-22,Receita,Rendimentos Financeiros,LCI,43473.79,Recursos Humanos
+175,2024-02-13,Receita,Vendas de Produtos,Varejo,24318.89,Recursos Humanos
+176,2024-02-07,Despesa,Aluguel,Filial RJ,14092.75,Comercial
+177,2024-02-13,Despesa,"Utilities (Energia, Água)",Energia Elétrica,26100.74,Comercial
+178,2024-02-09,Despesa,Salários e Encargos,Estagiário,23130.01,Operações
+179,2024-02-20,Despesa,Frete e Logística,Frete Internacional,10564.87,Diretoria
+180,2024-02-25,Despesa,Comissões de Venda,Marketing,7020.03,Recursos Humanos
+181,2024-02-16,Despesa,Custo de Mercadorias Vendidas,Produto B,6512.42,Financeiro
+182,2024-02-27,Despesa,Marketing e Publicidade,Google Ads,9115.78,Diretoria
+183,2024-02-06,Despesa,Treinamento e Desenvolvimento,Liderança,1294.24,Marketing
+184,2024-03-04,Receita,Royalties e Licenças,Marca Registrada,55427.84,Diretoria
+185,2024-03-22,Receita,Rendimentos Financeiros,Poupança,28125.56,Diretoria
+186,2024-03-11,Receita,Venda de Ativo,Equipamento Obsoleto,32008.24,TI
+187,2024-03-11,Despesa,Aluguel,Depósito,14590.75,Diretoria
+188,2024-03-06,Despesa,Salários e Encargos,Estagiário,5899.53,Operações
+189,2024-03-14,Despesa,"Utilities (Energia, Água)",Água,9103.61,Operações
+190,2024-03-25,Despesa,"Utilities (Energia, Água)",Energia Elétrica,14727.01,Diretoria
+191,2024-03-06,Despesa,Frete e Logística,Last Mile,12120.6,TI
+192,2024-03-19,Despesa,Frete e Logística,Frete Internacional,6741.04,Marketing
+193,2024-03-01,Despesa,Frete e Logística,Last Mile,7768.69,TI
+194,2024-03-24,Despesa,Software e Licenças TI,ERP,4837.64,Marketing
+195,2024-03-12,Despesa,Manutenção e Conservação,Equipamentos,2070.85,Administrativo
+196,2024-03-08,Despesa,Infraestrutura TI,Rede,7540.22,Comercial
+197,2024-04-23,Receita,Royalties e Licenças,Marca Registrada,53514.56,Operações
+198,2024-04-01,Receita,Vendas de Produtos,Varejo,36943.63,Marketing
+199,2024-04-28,Receita,Vendas de Produtos,Online,44959.11,Administrativo
+200,2024-04-16,Receita,Royalties e Licenças,Marca Registrada,16326.15,Marketing
+201,2024-04-11,Receita,Rendimentos Financeiros,LCI,52072.98,Recursos Humanos
+202,2024-04-07,Despesa,Aluguel,Filial RJ,22271.6,Diretoria
+203,2024-04-22,Despesa,"Utilities (Energia, Água)",Internet,25286.43,Financeiro
+204,2024-04-14,Despesa,"Utilities (Energia, Água)",Água,12488.02,Diretoria
+205,2024-04-26,Despesa,"Utilities (Energia, Água)",Energia Elétrica,26183.35,Comercial
+206,2024-04-19,Despesa,Frete e Logística,Frete Internacional,2855.56,Comercial
+207,2024-04-03,Despesa,Comissões de Venda,Canal Digital,15371.98,Recursos Humanos
+208,2024-04-03,Despesa,Comissões de Venda,Canal Digital,8063.09,Diretoria
+209,2024-04-03,Despesa,Viagens e Representação,Hospedagem,4820.48,Operações
+210,2024-04-14,Despesa,Consultoria Externa,Estratégia,9845.39,Marketing
+211,2024-04-09,Despesa,Viagens e Representação,Hospedagem,5557.46,Diretoria
+212,2024-05-01,Receita,Venda de Ativo,Equipamento Obsoleto,26739.06,Diretoria
+213,2024-05-27,Receita,Prestação de Serviços,Implementação,57952.4,Diretoria
+214,2024-05-18,Receita,Royalties e Licenças,Patente,75915.59,TI
+215,2024-05-15,Receita,Venda de Ativo,Equipamento Obsoleto,28042.12,Comercial
+216,2024-05-25,Receita,Prestação de Serviços,Suporte,63518.18,Administrativo
+217,2024-05-03,Despesa,Salários e Encargos,Estagiário,26504.65,Comercial
+218,2024-05-10,Despesa,Salários e Encargos,Estagiário,11673.37,Financeiro
+219,2024-05-08,Despesa,Salários e Encargos,PJ,22171.37,Comercial
+220,2024-05-01,Despesa,Aluguel,Filial SP,8749.06,Operações
+221,2024-05-14,Despesa,Frete e Logística,Frete Internacional,12076.85,TI
+222,2024-05-05,Despesa,Custo de Mercadorias Vendidas,Produto A,4868.45,Operações
+223,2024-05-06,Despesa,Frete e Logística,Last Mile,13856.07,TI
+224,2024-05-03,Despesa,Marketing e Publicidade,Eventos,1608.6,Operações
+225,2024-05-14,Despesa,Marketing e Publicidade,Eventos,10906.32,Recursos Humanos
+226,2024-05-24,Despesa,Manutenção e Conservação,Predial,11374.78,Comercial
+227,2024-06-04,Receita,Venda de Ativo,Imóvel,62741.23,Diretoria
+228,2024-06-04,Receita,Vendas de Produtos,Linha C,30475.0,Marketing
+229,2024-06-26,Receita,Venda de Ativo,Equipamento Obsoleto,62920.36,Administrativo
+230,2024-06-07,Despesa,Aluguel,Filial RJ,7670.35,Diretoria
+231,2024-06-19,Despesa,Salários e Encargos,CLT,11357.65,Diretoria
+232,2024-06-04,Despesa,"Utilities (Energia, Água)",Internet,14367.62,Administrativo
+233,2024-06-09,Despesa,Comissões de Venda,Comercial,6434.24,Marketing
+234,2024-06-27,Despesa,Frete e Logística,Frete Internacional,14882.08,TI
+235,2024-06-20,Despesa,Comissões de Venda,Comercial,19402.49,TI
+236,2024-06-10,Despesa,Software e Licenças TI,Cloud,7080.01,Recursos Humanos
+237,2024-06-28,Despesa,Consultoria Externa,Contábil,10536.48,Administrativo
+238,2024-06-13,Despesa,Equipamentos,Servidores,45940.51,Operações
+239,2024-07-28,Receita,Prestação de Serviços,Consultoria,34332.49,Diretoria
+240,2024-07-25,Receita,Royalties e Licenças,Patente,72165.37,TI
+241,2024-07-27,Receita,Royalties e Licenças,Patente,71318.9,Diretoria
+242,2024-07-27,Despesa,Salários e Encargos,CLT,22934.65,Financeiro
+243,2024-07-03,Despesa,"Utilities (Energia, Água)",Internet,11524.25,Administrativo
+244,2024-07-18,Despesa,"Utilities (Energia, Água)",Internet,23230.79,Diretoria
+245,2024-07-02,Despesa,"Utilities (Energia, Água)",Água,5683.77,Diretoria
+246,2024-07-21,Despesa,Custo de Mercadorias Vendidas,Produto C,9211.91,Marketing
+247,2024-07-06,Despesa,Comissões de Venda,Comercial,3480.18,Financeiro
+248,2024-07-28,Despesa,Software e Licenças TI,CRM,5966.39,Operações
+249,2024-07-27,Despesa,Viagens e Representação,Viagem Internacional,8562.14,Operações
+250,2024-07-12,Despesa,Viagens e Representação,Viagem Nacional,1928.39,Administrativo
+251,2024-08-01,Receita,Venda de Ativo,Equipamento Obsoleto,29591.66,Recursos Humanos
+252,2024-08-23,Receita,Rendimentos Financeiros,CDB,27887.3,TI
+253,2024-08-20,Receita,Rendimentos Financeiros,Poupança,55170.26,Financeiro
+254,2024-08-06,Receita,Vendas de Produtos,Varejo,77272.14,Recursos Humanos
+255,2024-08-25,Despesa,"Utilities (Energia, Água)",Telefone,18145.94,Diretoria
+256,2024-08-07,Despesa,Aluguel,Filial SP,10612.1,Operações
+257,2024-08-13,Despesa,Salários e Encargos,CLT,23661.08,Administrativo
+258,2024-08-27,Despesa,Comissões de Venda,Marketing,5880.2,Comercial
+259,2024-08-26,Despesa,Frete e Logística,Frete Nacional,5246.66,TI
+260,2024-08-15,Despesa,Software e Licenças TI,CRM,3590.34,Marketing
+261,2024-08-15,Despesa,Consultoria Externa,Jurídico,8526.94,TI
+262,2024-08-11,Despesa,Manutenção e Conservação,Veículos,2465.25,Administrativo
+263,2024-09-23,Receita,Prestação de Serviços,Suporte,61366.84,Operações
+264,2024-09-02,Receita,Vendas de Produtos,Linha A,21193.16,Marketing
+265,2024-09-12,Receita,Prestação de Serviços,Implementação,45610.61,TI
+266,2024-09-20,Receita,Vendas de Produtos,Online,31487.7,Operações
+267,2024-09-05,Receita,Rendimentos Financeiros,LCI,58632.03,TI
+268,2024-09-16,Despesa,Salários e Encargos,PJ,9246.66,Diretoria
+269,2024-09-23,Despesa,Aluguel,Depósito,7241.2,Financeiro
+270,2024-09-02,Despesa,Salários e Encargos,CLT,7921.05,Diretoria
+271,2024-09-14,Despesa,Comissões de Venda,Marketing,8490.66,Operações
+272,2024-09-09,Despesa,Comissões de Venda,Canal Digital,16932.61,Marketing
+273,2024-09-11,Despesa,Frete e Logística,Last Mile,18068.09,Diretoria
+274,2024-09-22,Despesa,Consultoria Externa,Estratégia,10383.37,Diretoria
+275,2024-09-02,Despesa,Marketing e Publicidade,Redes Sociais,3078.12,Financeiro
+276,2024-09-06,Despesa,Equipamentos,Impressoras,26161.14,Diretoria
+277,2024-10-16,Receita,Vendas de Produtos,Linha A,79688.11,Diretoria
+278,2024-10-18,Receita,Royalties e Licenças,Patente,79273.21,Diretoria
+279,2024-10-24,Receita,Rendimentos Financeiros,CDB,22311.91,Recursos Humanos
+280,2024-10-28,Receita,Royalties e Licenças,Patente,21082.56,Financeiro
+281,2024-10-09,Despesa,"Utilities (Energia, Água)",Água,17718.44,TI
+282,2024-10-06,Despesa,"Utilities (Energia, Água)",Telefone,24171.19,Recursos Humanos
+283,2024-10-22,Despesa,Aluguel,Sede,24206.34,Marketing
+284,2024-10-22,Despesa,Frete e Logística,Frete Nacional,14263.62,Administrativo
+285,2024-10-04,Despesa,Frete e Logística,Frete Internacional,12626.09,Financeiro
+286,2024-10-23,Despesa,Marketing e Publicidade,Materiais Gráficos,6062.56,Diretoria
+287,2024-10-20,Despesa,Treinamento e Desenvolvimento,Compliance,11507.22,TI
+288,2024-11-15,Receita,Vendas de Produtos,Linha C,74946.6,Financeiro
+289,2024-11-26,Receita,Prestação de Serviços,Implementação,92447.06,Operações
+290,2024-11-24,Receita,Royalties e Licenças,Marca Registrada,86943.42,Administrativo
+291,2024-11-06,Receita,Vendas de Produtos,Linha B,53203.54,Administrativo
+292,2024-11-06,Despesa,Aluguel,Depósito,26308.65,Administrativo
+293,2024-11-21,Despesa,Salários e Encargos,CLT,21179.2,Recursos Humanos
+294,2024-11-14,Despesa,Salários e Encargos,Estagiário,17271.13,Operações
+295,2024-11-27,Despesa,Frete e Logística,Frete Internacional,13979.37,Comercial
+296,2024-11-13,Despesa,Frete e Logística,Frete Internacional,10017.96,Operações
+297,2024-11-26,Despesa,Marketing e Publicidade,Eventos,9321.4,Financeiro
+298,2024-11-03,Despesa,Manutenção e Conservação,Predial,7937.55,Marketing
+299,2024-11-21,Despesa,Manutenção e Conservação,Veículos,8440.84,Financeiro
+300,2024-12-17,Receita,Venda de Ativo,Equipamento Obsoleto,83882.06,Operações
+301,2024-12-26,Receita,Rendimentos Financeiros,Poupança,65142.16,Operações
+302,2024-12-22,Receita,Prestação de Serviços,Suporte,118458.16,Comercial
+303,2024-12-19,Receita,Venda de Ativo,Equipamento Obsoleto,64203.85,Recursos Humanos
+304,2024-12-14,Despesa,"Utilities (Energia, Água)",Telefone,7690.8,Recursos Humanos
+305,2024-12-19,Despesa,Salários e Encargos,PJ,21521.38,Marketing
+306,2024-12-25,Despesa,Salários e Encargos,Estagiário,19639.2,TI
+307,2024-12-06,Despesa,Comissões de Venda,Comercial,13908.41,Administrativo
+308,2024-12-23,Despesa,Custo de Mercadorias Vendidas,Produto C,3499.23,Marketing
+309,2024-12-26,Despesa,Treinamento e Desenvolvimento,Liderança,5949.43,Marketing
+310,2024-12-03,Despesa,Viagens e Representação,Hospedagem,3321.75,Operações
+311,2024-12-18,Despesa,Treinamento e Desenvolvimento,Treinamento Técnico,2169.64,TI
+312,2024-12-06,Despesa,Infraestrutura TI,Backup,10250.52,Diretoria
+313,2025-01-24,Receita,Rendimentos Financeiros,LCI,57176.59,Diretoria
+314,2025-01-20,Receita,Royalties e Licenças,Patente,44161.97,Administrativo
+315,2025-01-05,Receita,Royalties e Licenças,Marca Registrada,16557.03,Comercial
+316,2025-01-23,Receita,Vendas de Produtos,Linha B,54430.35,TI
+317,2025-01-21,Despesa,Salários e Encargos,CLT,21215.58,Administrativo
+318,2025-01-18,Despesa,"Utilities (Energia, Água)",Água,26454.73,Recursos Humanos
+319,2025-01-05,Despesa,Salários e Encargos,PJ,24243.03,Administrativo
+320,2025-01-05,Despesa,Custo de Mercadorias Vendidas,Importação,4989.9,Diretoria
+321,2025-01-15,Despesa,Frete e Logística,Last Mile,2353.3,Comercial
+322,2025-01-27,Despesa,Software e Licenças TI,Segurança,7263.74,TI
+323,2025-01-21,Despesa,Software e Licenças TI,Segurança,1086.62,Administrativo
+324,2025-02-18,Receita,Venda de Ativo,Imóvel,53729.57,TI
+325,2025-02-17,Receita,Rendimentos Financeiros,LCI,40979.22,Diretoria
+326,2025-02-17,Receita,Prestação de Serviços,Consultoria,61428.87,Administrativo
+327,2025-02-03,Receita,Venda de Ativo,Imóvel,35530.26,Administrativo
+328,2025-02-21,Despesa,Aluguel,Filial RJ,17369.72,Diretoria
+329,2025-02-06,Despesa,"Utilities (Energia, Água)",Internet,15905.75,Comercial
+330,2025-02-08,Despesa,Salários e Encargos,Estagiário,13596.18,Comercial
+331,2025-02-11,Despesa,"Utilities (Energia, Água)",Telefone,27726.75,Financeiro
+332,2025-02-14,Despesa,Comissões de Venda,Canal Digital,14804.93,Marketing
+333,2025-02-28,Despesa,Frete e Logística,Frete Nacional,16395.59,Comercial
+334,2025-02-03,Despesa,Frete e Logística,Last Mile,14432.56,Diretoria
+335,2025-02-20,Despesa,Viagens e Representação,Viagem Internacional,3194.33,Recursos Humanos
+336,2025-02-16,Despesa,Manutenção e Conservação,Equipamentos,11373.6,Comercial
+337,2025-03-01,Receita,Venda de Ativo,Imóvel,18058.21,Operações
+338,2025-03-06,Receita,Royalties e Licenças,Marca Registrada,59000.31,Recursos Humanos
+339,2025-03-20,Receita,Royalties e Licenças,Marca Registrada,42990.33,Recursos Humanos
+340,2025-03-11,Despesa,Salários e Encargos,PJ,11445.55,TI
+341,2025-03-05,Despesa,"Utilities (Energia, Água)",Energia Elétrica,11687.28,TI
+342,2025-03-27,Despesa,Salários e Encargos,CLT,24974.67,Recursos Humanos
+343,2025-03-04,Despesa,Comissões de Venda,Comercial,2755.45,Recursos Humanos
+344,2025-03-06,Despesa,Custo de Mercadorias Vendidas,Produto C,18397.74,Diretoria
+345,2025-03-05,Despesa,Treinamento e Desenvolvimento,Compliance,10575.42,Marketing
+346,2025-03-04,Despesa,Software e Licenças TI,CRM,10010.77,Diretoria
+347,2025-03-01,Despesa,Manutenção e Conservação,Predial,9461.41,Diretoria
+348,2025-03-06,Despesa,Infraestrutura TI,Rede,17904.12,Operações
+349,2025-04-22,Receita,Rendimentos Financeiros,CDB,38441.82,Financeiro
+350,2025-04-08,Receita,Venda de Ativo,Equipamento Obsoleto,42411.94,Administrativo
+351,2025-04-15,Receita,Rendimentos Financeiros,LCI,74671.3,Marketing
+352,2025-04-25,Receita,Vendas de Produtos,Linha A,43767.61,Recursos Humanos
+353,2025-04-25,Despesa,Salários e Encargos,CLT,12870.11,Administrativo
+354,2025-04-02,Despesa,Aluguel,Filial SP,14831.66,TI
+355,2025-04-26,Despesa,"Utilities (Energia, Água)",Internet,29501.18,Administrativo
+356,2025-04-28,Despesa,Comissões de Venda,Marketing,14614.23,Marketing
+357,2025-04-09,Despesa,Frete e Logística,Last Mile,2142.24,Financeiro
+358,2025-04-21,Despesa,Comissões de Venda,Comercial,9270.89,Diretoria
+359,2025-04-07,Despesa,Treinamento e Desenvolvimento,Liderança,5449.56,Recursos Humanos
+360,2025-04-13,Despesa,Marketing e Publicidade,Redes Sociais,6911.77,Operações
+361,2025-04-18,Despesa,Viagens e Representação,Viagem Internacional,2021.02,Marketing
+362,2025-05-26,Receita,Prestação de Serviços,Implementação,16522.41,Operações
+363,2025-05-10,Receita,Prestação de Serviços,Implementação,69094.88,Administrativo
+364,2025-05-02,Receita,Venda de Ativo,Imóvel,22178.72,Operações
+365,2025-05-02,Receita,Venda de Ativo,Equipamento Obsoleto,38040.77,Diretoria
+366,2025-05-01,Receita,Royalties e Licenças,Patente,52208.29,Marketing
+367,2025-05-19,Despesa,"Utilities (Energia, Água)",Água,29725.0,Marketing
+368,2025-05-26,Despesa,Salários e Encargos,Estagiário,12113.39,Financeiro
+369,2025-05-24,Despesa,"Utilities (Energia, Água)",Água,14441.64,Recursos Humanos
+370,2025-05-27,Despesa,Comissões de Venda,Marketing,12482.64,Diretoria
+371,2025-05-14,Despesa,Custo de Mercadorias Vendidas,Importação,4637.96,Recursos Humanos
+372,2025-05-05,Despesa,Custo de Mercadorias Vendidas,Importação,3119.49,Comercial
+373,2025-05-17,Despesa,Marketing e Publicidade,Materiais Gráficos,5062.24,Administrativo
+374,2025-05-21,Despesa,Software e Licenças TI,Segurança,7427.34,Diretoria
+375,2025-05-16,Despesa,Treinamento e Desenvolvimento,Compliance,11241.39,Administrativo
+376,2025-06-16,Receita,Prestação de Serviços,Implementação,47876.08,Diretoria
+377,2025-06-17,Receita,Prestação de Serviços,Implementação,77922.07,Recursos Humanos
+378,2025-06-02,Receita,Prestação de Serviços,Implementação,44603.1,Financeiro
+379,2025-06-14,Despesa,Aluguel,Sede,20040.01,Recursos Humanos
+380,2025-06-02,Despesa,Salários e Encargos,Estagiário,19294.12,Financeiro
+381,2025-06-12,Despesa,Aluguel,Filial RJ,14286.68,Operações
+382,2025-06-05,Despesa,Salários e Encargos,CLT,5699.44,Administrativo
+383,2025-06-07,Despesa,Frete e Logística,Frete Nacional,18003.03,Diretoria
+384,2025-06-12,Despesa,Custo de Mercadorias Vendidas,Produto A,4201.9,TI
+385,2025-06-19,Despesa,Manutenção e Conservação,Equipamentos,7303.65,Marketing
+386,2025-06-24,Despesa,Manutenção e Conservação,Veículos,6227.5,Financeiro
+387,2025-06-15,Despesa,Viagens e Representação,Viagem Internacional,6552.4,Diretoria
+388,2025-06-11,Despesa,Equipamentos,Computadores,43985.55,Administrativo
+389,2025-07-11,Receita,Prestação de Serviços,Implementação,73515.89,TI
+390,2025-07-21,Receita,Rendimentos Financeiros,CDB,62834.33,Financeiro
+391,2025-07-26,Receita,Vendas de Produtos,Linha C,52179.66,Recursos Humanos
+392,2025-07-20,Receita,Venda de Ativo,Equipamento Obsoleto,20534.88,Comercial
+393,2025-07-04,Despesa,"Utilities (Energia, Água)",Água,27421.61,TI
+394,2025-07-08,Despesa,Salários e Encargos,Estagiário,24668.93,Diretoria
+395,2025-07-20,Despesa,Aluguel,Filial RJ,25173.03,Administrativo
+396,2025-07-28,Despesa,"Utilities (Energia, Água)",Energia Elétrica,6124.59,Marketing
+397,2025-07-28,Despesa,Custo de Mercadorias Vendidas,Produto C,9468.86,Administrativo
+398,2025-07-04,Despesa,Frete e Logística,Last Mile,3638.45,Financeiro
+399,2025-07-09,Despesa,Frete e Logística,Frete Nacional,4592.62,Financeiro
+400,2025-07-02,Despesa,Manutenção e Conservação,Veículos,8464.69,Marketing
+401,2025-07-02,Despesa,Viagens e Representação,Viagem Internacional,1298.88,Administrativo
+402,2025-07-14,Despesa,Marketing e Publicidade,Eventos,4520.46,Operações
+403,2025-08-08,Receita,Vendas de Produtos,Varejo,18372.08,Comercial
+404,2025-08-17,Receita,Rendimentos Financeiros,Poupança,48060.38,Recursos Humanos
+405,2025-08-15,Receita,Royalties e Licenças,Patente,18941.08,Recursos Humanos
+406,2025-08-21,Receita,Rendimentos Financeiros,CDB,16878.92,TI
+407,2025-08-22,Despesa,"Utilities (Energia, Água)",Energia Elétrica,29086.87,Comercial
+408,2025-08-05,Despesa,"Utilities (Energia, Água)",Internet,21288.77,Administrativo
+409,2025-08-21,Despesa,Salários e Encargos,Estagiário,7097.71,Comercial
+410,2025-08-06,Despesa,Aluguel,Filial SP,14332.63,Administrativo
+411,2025-08-15,Despesa,Custo de Mercadorias Vendidas,Produto C,2018.02,Financeiro
+412,2025-08-16,Despesa,Custo de Mercadorias Vendidas,Produto C,3083.15,Operações
+413,2025-08-12,Despesa,Comissões de Venda,Canal Digital,8842.76,Comercial
+414,2025-08-18,Despesa,Marketing e Publicidade,Google Ads,2775.58,Operações
+415,2025-08-04,Despesa,Marketing e Publicidade,Redes Sociais,5348.35,Operações
+416,2025-08-17,Despesa,Manutenção e Conservação,Equipamentos,3319.35,Marketing
+417,2025-09-23,Receita,Royalties e Licenças,Patente,78676.62,Operações
+418,2025-09-11,Receita,Prestação de Serviços,Suporte,58048.01,Comercial
+419,2025-09-11,Receita,Rendimentos Financeiros,CDB,77334.52,Financeiro
+420,2025-09-01,Receita,Vendas de Produtos,Linha A,54571.14,Financeiro
+421,2025-09-23,Receita,Rendimentos Financeiros,LCI,51126.39,Diretoria
+422,2025-09-21,Despesa,"Utilities (Energia, Água)",Energia Elétrica,7028.72,TI
+423,2025-09-04,Despesa,"Utilities (Energia, Água)",Internet,16129.42,Administrativo
+424,2025-09-06,Despesa,"Utilities (Energia, Água)",Energia Elétrica,13949.14,Recursos Humanos
+425,2025-09-07,Despesa,Salários e Encargos,PJ,14262.02,TI
+426,2025-09-09,Despesa,Comissões de Venda,Canal Digital,2356.07,Marketing
+427,2025-09-20,Despesa,Custo de Mercadorias Vendidas,Produto C,3619.4,Comercial
+428,2025-09-02,Despesa,Manutenção e Conservação,Equipamentos,11640.26,Diretoria
+429,2025-09-07,Despesa,Treinamento e Desenvolvimento,Treinamento Técnico,8776.65,Comercial
+430,2025-09-28,Despesa,Veículos,Entrega,22823.88,Diretoria
+431,2025-10-24,Receita,Venda de Ativo,Equipamento Obsoleto,27595.07,Recursos Humanos
+432,2025-10-03,Receita,Venda de Ativo,Equipamento Obsoleto,23336.02,Operações
+433,2025-10-17,Receita,Venda de Ativo,Imóvel,70606.13,Comercial
+434,2025-10-20,Despesa,"Utilities (Energia, Água)",Internet,21943.36,Diretoria
+435,2025-10-21,Despesa,Aluguel,Sede,28447.26,Marketing
+436,2025-10-14,Despesa,Salários e Encargos,PJ,26108.54,Recursos Humanos
+437,2025-10-25,Despesa,Frete e Logística,Frete Nacional,8506.49,Comercial
+438,2025-10-14,Despesa,Custo de Mercadorias Vendidas,Importação,7002.79,Marketing
+439,2025-10-11,Despesa,Custo de Mercadorias Vendidas,Produto A,9053.46,TI
+440,2025-10-03,Despesa,Treinamento e Desenvolvimento,Treinamento Técnico,5662.02,Comercial
+441,2025-10-03,Despesa,Viagens e Representação,Hospedagem,4621.47,Recursos Humanos
+442,2025-11-01,Receita,Rendimentos Financeiros,LCI,55999.69,Marketing
+443,2025-11-16,Receita,Royalties e Licenças,Marca Registrada,40384.48,Marketing
+444,2025-11-17,Receita,Vendas de Produtos,Linha B,88928.06,Recursos Humanos
+445,2025-11-19,Despesa,Aluguel,Sede,20633.72,Recursos Humanos
+446,2025-11-13,Despesa,Aluguel,Filial RJ,27917.86,Recursos Humanos
+447,2025-11-26,Despesa,Aluguel,Depósito,6550.06,TI
+448,2025-11-14,Despesa,Salários e Encargos,CLT,20268.47,Recursos Humanos
+449,2025-11-28,Despesa,Comissões de Venda,Marketing,2939.66,Administrativo
+450,2025-11-14,Despesa,Custo de Mercadorias Vendidas,Produto B,13111.44,TI
+451,2025-11-14,Despesa,Manutenção e Conservação,Veículos,6106.3,Recursos Humanos
+452,2025-11-22,Despesa,Software e Licenças TI,ERP,8160.14,Diretoria
+453,2025-11-07,Despesa,Consultoria Externa,Jurídico,4610.13,Recursos Humanos
+454,2025-12-19,Receita,Venda de Ativo,Equipamento Obsoleto,92046.69,Financeiro
+455,2025-12-14,Receita,Venda de Ativo,Imóvel,47487.89,Diretoria
+456,2025-12-26,Receita,Prestação de Serviços,Consultoria,46207.37,TI
+457,2025-12-17,Despesa,Salários e Encargos,Estagiário,19613.06,Marketing
+458,2025-12-18,Despesa,Salários e Encargos,CLT,19591.65,Financeiro
+459,2025-12-11,Despesa,Salários e Encargos,PJ,12716.86,Marketing
+460,2025-12-22,Despesa,Comissões de Venda,Comercial,12555.92,TI
+461,2025-12-27,Despesa,Custo de Mercadorias Vendidas,Produto A,11127.94,Administrativo
+462,2025-12-21,Despesa,Viagens e Representação,Viagem Nacional,11741.62,Recursos Humanos
+463,2025-12-16,Despesa,Software e Licenças TI,Segurança,3082.91,Marketing
+464,2025-12-11,Despesa,Consultoria Externa,Estratégia,7227.07,Operações
+465,2025-12-04,Despesa,Infraestrutura TI,Storage,19787.86,TI

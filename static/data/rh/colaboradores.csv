@@ -1,0 +1,81 @@
+ID,Nome,Departamento,Cargo,DataAdmissao,Salario,Status
+1,Ana Silva,Marketing,Analista de Marketing,2024-04-22,7684.26,Ativo
+2,Carlos Oliveira,Operações,Técnico de Campo,2023-12-27,7208.34,Ativo
+3,Fernanda Costa,Comercial,Vendedor,2018-04-14,6659.11,Ativo
+4,Rafael Santos,TI,Analista de Sistemas,2019-10-22,7799.12,Ativo
+5,Juliana Martins,Marketing,Gerente de Marketing,2018-09-12,4305.36,Ativo
+6,Marcos Souza,Financeiro,Controller,2018-05-13,10028.75,Ativo
+7,Patrícia Lima,Comercial,Vendedor,2024-04-20,7312.76,Ativo
+8,Bruno Alves,Marketing,Copywriter,2023-09-24,5638.88,Ativo
+9,Camila Ferreira,Marketing,Gerente de Marketing,2018-07-12,7311.15,Ativo
+10,Diego Rocha,Comercial,Representante,2021-07-04,9696.91,Ativo
+11,Luciana Pereira,TI,Analista de Sistemas,2020-04-11,12693.03,Ativo
+12,Eduardo Nunes,Comercial,Gerente Comercial,2022-02-15,9380.4,Ativo
+13,Vanessa Gomes,Operações,Coordenador,2020-03-03,4580.58,Ativo
+14,Thiago Ribeiro,RH,Analista de RH,2019-12-13,4528.37,Ativo
+15,Aline Castro,TI,Gerente de TI,2021-02-17,6365.71,Ativo
+16,Felipe Moreira,RH,Coordenador de RH,2020-11-10,6711.92,Desligado
+17,Natália Carvalho,Comercial,Gerente Comercial,2021-08-14,3279.58,Ativo
+18,Gustavo Teixeira,Marketing,Copywriter,2021-05-18,8137.27,Ativo
+19,Mariana Barbosa,Operações,Coordenador,2021-07-25,5469.47,Ativo
+20,Ricardo Mendes,RH,Assistente de RH,2023-09-01,3874.97,Ativo
+21,Débora Cardoso,Operações,Coordenador,2021-12-02,5718.79,Ativo
+22,Alexandre Pinto,RH,Gerente de RH,2021-04-17,5320.87,Ativo
+23,Simone Freitas,Operações,Coordenador,2024-04-18,6111.71,Ativo
+24,Henrique Araújo,Marketing,Analista de Marketing,2021-11-18,4130.97,Ativo
+25,Larissa Correia,Marketing,Copywriter,2020-09-25,8552.34,Ativo
+26,Rodrigo Lopes,Marketing,Gerente de Marketing,2019-04-10,5597.55,Ativo
+27,Viviane Nascimento,Operações,Gerente de Operações,2023-10-19,3635.88,Ativo
+28,Leonardo Melo,Financeiro,Assistente Financeiro,2022-12-31,10422.53,Ativo
+29,Adriana Vieira,Financeiro,Controller,2018-12-04,6562.5,Ativo
+30,Renato Dias,RH,Assistente de RH,2018-09-26,6432.63,Ativo
+31,Cláudia Ramos,Marketing,Designer,2022-10-04,8257.23,Ativo
+32,Fábio Monteiro,RH,Assistente de RH,2022-11-18,8058.12,Ativo
+33,Sandra Cunha,TI,Desenvolvedor Senior,2021-09-20,6213.78,Desligado
+34,Paulo Machado,TI,Analista de Sistemas,2020-10-28,7601.93,Ativo
+35,Cristiane Sousa,Operações,Analista de Processos,2022-07-28,8510.43,Ativo
+36,Anderson Lima,Marketing,Social Media,2018-03-11,5881.64,Ativo
+37,Vera Cavalcanti,TI,DevOps Engineer,2018-09-17,6053.09,Ativo
+38,Sérgio Miranda,Operações,Supervisor de Operações,2018-10-25,7354.85,Ativo
+39,Eliana Faria,Operações,Supervisor de Operações,2021-05-19,5094.1,Ativo
+40,Márcio Tavares,Financeiro,Contador,2018-05-07,7051.31,Ativo
+41,Raquel Azevedo,Operações,Analista de Processos,2022-05-21,4250.1,Ativo
+42,Danilo Amaral,Operações,Gerente de Operações,2019-08-14,8780.74,Ativo
+43,Priscila Borges,Marketing,Gerente de Marketing,2018-02-15,8765.65,Ativo
+44,Leandro Moraes,Operações,Analista de Processos,2018-01-21,4177.79,Ativo
+45,Tatiana Campos,Comercial,Coordenador Comercial,2018-12-15,6832.68,Ativo
+46,Roberto Mesquita,Marketing,Gerente de Marketing,2023-10-01,4664.55,Desligado
+47,Andréia Guimarães,RH,Coordenador de RH,2020-11-01,6892.87,Ativo
+48,Maurício Bezerra,RH,Assistente de RH,2024-02-27,8187.38,Ativo
+49,Fabiana Dantas,Operações,Supervisor de Operações,2018-10-03,5098.59,Ativo
+50,Cleber Novaes,RH,Assistente de RH,2021-09-17,6179.55,Ativo
+51,Sueli Fonseca,Marketing,Designer,2018-10-13,4050.25,Ativo
+52,Davi Carvalho,Financeiro,Contador,2021-06-06,7605.17,Ativo
+53,Ingrid Rodrigues,RH,Assistente de RH,2021-07-19,6617.74,Ativo
+54,Natan Duarte,RH,Analista de RH,2020-06-26,5222.68,Ativo
+55,Bia Peixoto,Marketing,Social Media,2022-01-12,5021.74,Desligado
+56,Caio Vasconcelos,Marketing,Gerente de Marketing,2023-03-11,8328.37,Ativo
+57,Luana Barros,Financeiro,Contador,2019-12-21,8413.37,Ativo
+58,Igor Figueiredo,TI,DBA,2019-07-28,13728.42,Ativo
+59,Paloma Xavier,RH,Gerente de RH,2018-11-10,7534.5,Ativo
+60,Otávio Cunha,TI,DevOps Engineer,2022-07-18,11684.64,Ativo
+61,Flavia Leite,RH,Analista de RH,2024-02-05,6533.77,Ativo
+62,Thales Braga,Operações,Técnico de Campo,2019-09-01,7096.49,Ativo
+63,Milena Siqueira,RH,Assistente de RH,2021-04-06,7532.75,Desligado
+64,César Queiroz,Operações,Coordenador,2022-01-30,3998.05,Ativo
+65,Eliane Andrade,Marketing,Designer,2019-11-11,8163.9,Ativo
+66,Vagner Prado,RH,Recrutadora,2024-05-08,4375.72,Ativo
+67,Suzan Bastos,Marketing,Designer,2023-06-04,7547.56,Ativo
+68,Jonas Coelho,TI,Desenvolvedor Senior,2020-08-07,12853.25,Desligado
+69,Keila Bittencourt,Financeiro,Controller,2020-04-26,4342.47,Ativo
+70,Emanuel Pacheco,Financeiro,Contador,2023-02-06,7757.39,Ativo
+71,Amanda Rios,TI,DBA,2023-11-06,6929.03,Ativo
+72,Murilo Fontes,Financeiro,Gerente Financeiro,2024-05-24,8629.05,Ativo
+73,Giovanna Lacerda,Marketing,Social Media,2018-11-15,5509.13,Ativo
+74,Walter Paiva,Comercial,Gerente Comercial,2021-12-16,6614.6,Ativo
+75,Mônica Furtado,Financeiro,Contador,2018-01-28,10341.26,Ativo
+76,Marcelo Esteves,RH,Recrutadora,2018-11-12,4410.83,Ativo
+77,Silvia Ventura,Financeiro,Controller,2019-10-07,5201.92,Ativo
+78,Nilton Rezende,Marketing,Analista de Marketing,2022-08-26,7136.1,Ativo
+79,Leila Magalhães,Marketing,Analista de Marketing,2023-05-16,6148.34,Ativo
+80,Fernando Andrade,Operações,Analista de Processos,2022-08-11,7059.93,Desligado
