@@ -43,15 +43,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (hamburgerBtn && mobileMenu) {
         hamburgerBtn.addEventListener('click', function () {
-            const isOpen = mobileMenu.classList.contains('open');
+            const isOpen = !mobileMenu.classList.contains('hidden');
 
             if (isOpen) {
-                mobileMenu.classList.remove('open');
+                mobileMenu.classList.add('hidden');
                 hamburgerIcon.classList.remove('hidden');
                 closeIcon.classList.add('hidden');
                 hamburgerBtn.setAttribute('aria-expanded', 'false');
             } else {
-                mobileMenu.classList.add('open');
+                mobileMenu.classList.remove('hidden');
                 hamburgerIcon.classList.add('hidden');
                 closeIcon.classList.remove('hidden');
                 hamburgerBtn.setAttribute('aria-expanded', 'true');
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const mobileLinks = mobileMenu.querySelectorAll('a');
         mobileLinks.forEach(function (link) {
             link.addEventListener('click', function () {
-                mobileMenu.classList.remove('open');
+                mobileMenu.classList.add('hidden');
                 hamburgerIcon.classList.remove('hidden');
                 closeIcon.classList.add('hidden');
                 hamburgerBtn.setAttribute('aria-expanded', 'false');
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Fechar menu ao clicar fora
         document.addEventListener('click', function (e) {
             if (!hamburgerBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                mobileMenu.classList.remove('open');
+                mobileMenu.classList.add('hidden');
                 hamburgerIcon.classList.remove('hidden');
                 closeIcon.classList.add('hidden');
                 hamburgerBtn.setAttribute('aria-expanded', 'false');
@@ -231,5 +231,4 @@ document.addEventListener('DOMContentLoaded', function () {
     if (yearEl) {
         yearEl.textContent = new Date().getFullYear();
     }
-
 });
