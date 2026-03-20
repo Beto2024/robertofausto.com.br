@@ -1,11 +1,29 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session, redirect, request
+from flask_babel import Babel, _
 import os
 import sqlite3
 
 app = Flask(__name__)
+app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
 
 # Caminho do banco de dados SQLite para contador de visitas
 DATABASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'visits.db')
+
+babel = Babel()
+
+app.config['BABEL_DEFAULT_LOCALE'] = 'pt'
+app.config['BABEL_DEFAULT_TIMEZONE'] = 'America/Recife'
+app.config['LANGUAGES'] = ['pt', 'en']
+
+
+def get_locale():
+    return session.get('lang', 'pt')
+
+
+babel.init_app(app, locale_selector=get_locale)
+
+# Disponibilizar get_locale nos templates
+app.jinja_env.globals['get_locale'] = get_locale
 
 
 def init_db():
@@ -75,6 +93,13 @@ def curriculo():
 @app.route('/contato')
 def contato():
     return render_template('contato.html')
+
+
+@app.route('/set_lang/<lang>')
+def set_lang(lang):
+    if lang in app.config['LANGUAGES']:
+        session['lang'] = lang
+    return redirect(request.referrer or '/')
 
 
 @app.errorhandler(404)

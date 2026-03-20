@@ -72,21 +72,26 @@
 
                 <!-- Links Desktop -->
                 <div class="hidden md:flex items-center space-x-1">
-                    <a href="/"           class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">Início</a>
-                    <a href="/sobre"       class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">Sobre</a>
-                    <a href="/habilidades" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">Habilidades</a>
-                    <a href="/projetos"    class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">Projetos</a>
-                    <a href="/dashboards"  class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">Dashboards Power BI</a>
-                    <a href="/curriculo"   class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">Currículo</a>
+                    <a href="/"           class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">{{ _('Início') }}</a>
+                    <a href="/sobre"       class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">{{ _('Sobre') }}</a>
+                    <a href="/habilidades" class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">{{ _('Habilidades') }}</a>
+                    <a href="/projetos"    class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">{{ _('Projetos') }}</a>
+                    <a href="/dashboards"  class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">{{ _('Dashboards Power BI') }}</a>
+                    <a href="/curriculo"   class="nav-link px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">{{ _('Currículo') }}</a>
                     <a href="/contato"     class="ml-2 px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:from-blue-500 hover:to-purple-500 transition-all duration-200 shadow-lg shadow-blue-500/20">
-                        Contato
+                        {{ _('Contato') }}
                     </a>
+                    <!-- Seletor de idioma -->
+                    <div class="flex items-center gap-1 ml-3">
+                        <a href="/set_lang/pt" class="px-2 py-1 rounded text-sm {{ 'text-white font-bold' if get_locale() == 'pt' else 'text-gray-400 hover:text-white' }} transition-colors duration-200" title="Português">🇧🇷</a>
+                        <a href="/set_lang/en" class="px-2 py-1 rounded text-sm {{ 'text-white font-bold' if get_locale() == 'en' else 'text-gray-400 hover:text-white' }} transition-colors duration-200" title="English">🇺🇸</a>
+                    </div>
                 </div>
 
                 <!-- Hamburger Button (Mobile) -->
                 <button id="hamburger-btn"
                         class="md:hidden p-2 rounded-lg text-gray-400 hover:text-white hover:bg-gray-800 transition-colors duration-200"
-                        aria-label="Abrir menu de navegação"
+                        aria-label="{{ _('Abrir menu de navegação') }}"
                         aria-expanded="false"
                         aria-controls="mobile-menu">
                     <!-- Ícone Hamburger -->
@@ -105,13 +110,18 @@
         <!-- Menu Mobile -->
         <div id="mobile-menu" class="md:hidden bg-gray-950/95 backdrop-blur-lg border-t border-gray-800/50">
             <div class="max-w-7xl mx-auto px-4 py-3 space-y-1">
-                <a href="/"           class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">🏠 Início</a>
-                <a href="/sobre"       class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">👤 Sobre Mim</a>
-                <a href="/habilidades" class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">🛠️ Habilidades</a>
-                <a href="/projetos"    class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">💼 Projetos</a>
-                <a href="/dashboards"  class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">📊 Dashboards Power BI</a>
-                <a href="/curriculo"   class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">📄 Currículo</a>
-                <a href="/contato"     class="block px-4 py-3 rounded-lg text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 transition-all duration-200 font-semibold text-center mt-2">✉️ Contato</a>
+                <a href="/"           class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">🏠 {{ _('Início') }}</a>
+                <a href="/sobre"       class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">👤 {{ _('Sobre Mim') }}</a>
+                <a href="/habilidades" class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">🛠️ {{ _('Habilidades') }}</a>
+                <a href="/projetos"    class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">💼 {{ _('Projetos') }}</a>
+                <a href="/dashboards"  class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">📊 {{ _('Dashboards Power BI') }}</a>
+                <a href="/curriculo"   class="block px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800/80 transition-colors duration-200 font-medium">📄 {{ _('Currículo') }}</a>
+                <a href="/contato"     class="block px-4 py-3 rounded-lg text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 transition-all duration-200 font-semibold text-center mt-2">✉️ {{ _('Contato') }}</a>
+                <!-- Seletor de idioma mobile -->
+                <div class="flex items-center gap-2 px-4 py-2">
+                    <a href="/set_lang/pt" class="px-3 py-2 rounded-lg text-sm {{ 'text-white font-bold bg-gray-800' if get_locale() == 'pt' else 'text-gray-400 hover:text-white hover:bg-gray-800/80' }} transition-colors duration-200" title="Português">🇧🇷 PT</a>
+                    <a href="/set_lang/en" class="px-3 py-2 rounded-lg text-sm {{ 'text-white font-bold bg-gray-800' if get_locale() == 'en' else 'text-gray-400 hover:text-white hover:bg-gray-800/80' }} transition-colors duration-200" title="English">🇺🇸 EN</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -138,7 +148,7 @@
                         </div>
                         <span class="font-bold text-white">Roberto Fausto</span>
                     </div>
-                    <p class="text-sm text-gray-500">Analytics e BI · Ex-Advogado · Triatleta 🏊‍♂️🚴‍♂️🏃‍♂️</p>
+                    <p class="text-sm text-gray-500">{{ _('Analytics e BI · Ex-Advogado · Triatleta 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️') }}</p>
                 </div>
 
                 <!-- Links Sociais -->
@@ -165,7 +175,7 @@
                     <!-- Email -->
                     <a href="mailto:robertofaustofilho@gmail.com"
                        class="p-2 rounded-lg text-gray-400 hover:text-purple-400 hover:bg-gray-800 transition-all duration-200 group"
-                       aria-label="Enviar email">
+                       aria-label="{{ _('Enviar email') }}">
                         <svg class="w-5 h-5 group-hover:scale-110 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                         </svg>
@@ -178,7 +188,7 @@
             <!-- Linha divisória e Copyright -->
             <div class="mt-8 pt-6 border-t border-gray-800/50 text-center">
                 <p class="text-sm text-gray-600">
-                    &copy; <span id="current-year">2026</span> Roberto Fausto. Todos os direitos reservados.
+                    &copy; <span id="current-year">2026</span> Roberto Fausto. {{ _('Todos os direitos reservados.') }}
                 </p>
             </div>
 
