@@ -1,0 +1,748 @@
+# English translations for robertofausto.com.br
+# Copyright (C) 2024 Roberto Fausto
+msgid ""
+msgstr ""
+"Project-Id-Version: robertofausto 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Roberto Fausto\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+msgid "Início"
+msgstr "Home"
+
+msgid "Sobre"
+msgstr "About"
+
+msgid "Habilidades"
+msgstr "Skills"
+
+msgid "Projetos"
+msgstr "Projects"
+
+msgid "Dashboards Power BI"
+msgstr "Power BI Dashboards"
+
+msgid "Currículo"
+msgstr "Resume"
+
+msgid "Contato"
+msgstr "Contact"
+
+msgid "Sobre Mim"
+msgstr "About Me"
+
+msgid "Abrir menu de navegação"
+msgstr "Open navigation menu"
+
+msgid "Enviar email"
+msgstr "Send email"
+
+msgid "Analytics e BI · Ex-Advogado · Triatleta 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️"
+msgstr "Analytics & BI · Ex-Attorney · Triathlete 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️"
+
+msgid "Todos os direitos reservados."
+msgstr "All rights reserved."
+
+msgid "O que sei fazer"
+msgstr "What I can do"
+
+msgid "Ferramentas e competências focadas em Analytics e BI — combinando experiência analítica, domínio de dados e comunicação eficaz."
+msgstr "Tools and skills focused on Analytics & BI — combining analytical experience, data mastery and effective communication."
+
+msgid "Business Intelligence"
+msgstr "Business Intelligence"
+
+msgid "Avançado"
+msgstr "Advanced"
+
+msgid "Criação de dashboards interativos, indicadores, relatórios e visualizações estratégicas."
+msgstr "Creating interactive dashboards, indicators, reports and strategic visualizations."
+
+msgid "Análise e Automação"
+msgstr "Analysis & Automation"
+
+msgid "Análise avançada, tabelas dinâmicas, fórmulas complexas e automação de relatórios."
+msgstr "Advanced analysis, pivot tables, complex formulas and report automation."
+
+msgid "Comunicação de Insights"
+msgstr "Insights Communication"
+
+msgid "Comunicação de insights de forma prática e visual para apoiar decisões estratégicas."
+msgstr "Communicating insights in a practical and visual way to support strategic decisions."
+
+msgid "Banco de dados"
+msgstr "Databases"
+
+msgid "Extração, tratamento, validação e análise de dados em bancos relacionais."
+msgstr "Extraction, processing, validation and analysis of data in relational databases."
+
+msgid "Raciocínio Analítico"
+msgstr "Analytical Thinking"
+
+msgid "Competência transferível"
+msgstr "Transferable skill"
+
+msgid "Expert"
+msgstr "Expert"
+
+msgid "14 anos de experiência investigando cenários complexos e estruturando problemas na advocacia."
+msgstr "14 years of experience investigating complex scenarios and structuring problems in law."
+
+msgid "Automação e dados"
+msgstr "Automation & data"
+
+msgid "Intermediário"
+msgstr "Intermediate"
+
+msgid "Automação, limpeza e manipulação de dados com pandas e numpy."
+msgstr "Automation, data cleaning and manipulation with pandas and numpy."
+
+msgid "Web Framework"
+msgstr "Web Framework"
+
+msgid "Desenvolvimento web backend com Python."
+msgstr "Backend web development with Python."
+
+msgid "Controle de versão"
+msgstr "Version control"
+
+msgid "Controle de versão e colaboração em projetos."
+msgstr "Version control and project collaboration."
+
+msgid "Suporte & Manutenção"
+msgstr "Support & Maintenance"
+
+msgid "Montagem, configuração e manutenção de computadores desde a infância."
+msgstr "Building, configuring and maintaining computers since childhood."
+
+msgid "Inglês"
+msgstr "English"
+
+msgid "Idiomas"
+msgstr "Languages"
+
+msgid "Leitura e escrita avançadas, conversação e comunicação profissional em nível intermediário."
+msgstr "Advanced reading and writing, intermediate conversational and professional communication."
+
+msgid "* Níveis baseados em autoavaliação e experiência prática acumulada: Iniciante · Intermediário · Avançado · Expert"
+msgstr "* Levels based on self-assessment and accumulated practical experience: Beginner · Intermediate · Advanced · Expert"
+
+msgid "Disponível para oportunidades"
+msgstr "Available for opportunities"
+
+msgid "Analytics e BI"
+msgstr "Analytics & BI"
+
+msgid "Ex-advogado com 14 anos de experiência em transição para a área de dados. Combino raciocínio analítico, estruturação de problemas e comunicação objetiva com Python, SQL, Power BI e Excel para transformar dados em insights que apoiam decisões e geram impacto."
+msgstr "Ex-attorney with 14 years of experience transitioning into data. I combine analytical reasoning, problem structuring and objective communication with Python, SQL, Power BI and Excel to transform data into insights that support decisions and generate impact."
+
+msgid "Rolar para a seção Jornada"
+msgstr "Scroll to the Journey section"
+
+msgid "Conheça minha história ↓"
+msgstr "Discover my story ↓"
+
+msgid "Baixar currículo em PDF"
+msgstr "Download resume as PDF"
+
+msgid "Download CV"
+msgstr "Download CV"
+
+msgid "visitas"
+msgstr "visits"
+
+msgid "Scroll"
+msgstr "Scroll"
+
+msgid "Capítulo 1"
+msgstr "Chapter 1"
+
+msgid "A Jornada"
+msgstr "The Journey"
+
+msgid "Durante 14 anos como advogado, aprendi que o verdadeiro trabalho começa quando todos os fatos estão na mesa — e alguém precisa enxergar o que os números escondem. Investigar processos complexos, estruturar argumentos e comunicar conclusões de forma clara não era apenas minha rotina: era minha segunda natureza."
+msgstr "During 14 years as a lawyer, I learned that the real work begins when all the facts are on the table — and someone needs to see what the numbers are hiding. Investigating complex processes, structuring arguments and communicating conclusions clearly was not just my routine: it was my second nature."
+
+msgid "Em 2024, decidi dar nome a essa habilidade: Analytics e BI. Iniciei o CST em Análise e Desenvolvimento de Sistemas na UNINASSAU e mergulhei em Python, SQL, Power BI e Flask. A lógica jurídica e a lógica de dados são surpreendentemente parecidas — ambas exigem precisão, contexto e a capacidade de contar uma história convincente com as evidências disponíveis."
+msgstr "In 2024, I decided to put a name to this skill: Analytics & BI. I enrolled in the Systems Analysis and Development program at UNINASSAU and dove into Python, SQL, Power BI and Flask. Legal logic and data logic are surprisingly similar — both require precision, context and the ability to tell a convincing story with the available evidence."
+
+msgid "Fora do teclado, sou triatleta 🏊‍♂️🚴‍♂️🏃‍♂️ — e isso diz muito sobre como encaro os desafios. Consistência diária, tolerância ao desconforto e foco no longo prazo são habilidades que o esporte ensina e que trago para cada projeto. Não busco a perfeição instantânea; busco a melhoria contínua."
+msgstr "Away from the keyboard, I am a triathlete 🏊‍♂️🚴‍♂️🏃‍♂️ — and that says a lot about how I face challenges. Daily consistency, tolerance for discomfort and a long-term focus are skills that sport teaches and that I bring to every project. I don't seek instant perfection; I seek continuous improvement."
+
+msgid "Conhecer a história completa de Roberto Fausto"
+msgstr "Learn the full story of Roberto Fausto"
+
+msgid "Conhecer a história completa"
+msgstr "Learn the full story"
+
+msgid "E ao longo dessa jornada, fui montando meu arsenal de ferramentas..."
+msgstr "And along this journey, I built my arsenal of tools..."
+
+msgid "Capítulo 2"
+msgstr "Chapter 2"
+
+msgid "As Ferramentas"
+msgstr "The Tools"
+
+msgid "O arsenal construído ao longo da transição"
+msgstr "The arsenal built throughout the transition"
+
+msgid "Ver detalhes completos das habilidades"
+msgstr "See full skill details"
+
+msgid "Ver detalhes completos"
+msgstr "See full details"
+
+msgid "Com essas ferramentas em mãos, comecei a dar vida às minhas ideias..."
+msgstr "With these tools in hand, I started bringing my ideas to life..."
+
+msgid "Capítulo 3"
+msgstr "Chapter 3"
+
+msgid "As Conquistas"
+msgstr "The Achievements"
+
+msgid "Projetos que saíram do papel e foram para o ar"
+msgstr "Projects that went from paper to production"
+
+msgid "Os projetos estão hospedados no plano gratuito do Render — pode haver um delay de até 1 minuto na primeira abertura."
+msgstr "Projects are hosted on Render's free plan — there may be a delay of up to 1 minute on first load."
+
+msgid "Gerenciador de Eventos"
+msgstr "Event Manager"
+
+msgid "Sistema completo para criação, gerenciamento e acompanhamento de eventos com CRUD e filtros avançados."
+msgstr "Complete system for creating, managing and tracking events with CRUD and advanced filters."
+
+msgid "Ver projeto Gerenciador de Eventos"
+msgstr "View Event Manager project"
+
+msgid "Ver Projeto"
+msgstr "View Project"
+
+msgid "Dashboard Financeiro"
+msgstr "Financial Dashboard"
+
+msgid "Controle de finanças pessoais com cadastro de receitas/despesas, gráficos interativos e relatórios exportáveis."
+msgstr "Personal finance control with income/expense registration, interactive charts and exportable reports."
+
+msgid "Ver projeto Dashboard Financeiro"
+msgstr "View Financial Dashboard project"
+
+msgid "Sistema de Help Desk"
+msgstr "Help Desk System"
+
+msgid "Plataforma de chamados técnicos com prioridades, atribuição de responsáveis e histórico de alterações."
+msgstr "Technical ticket platform with priorities, assignee management and change history."
+
+msgid "Ver projeto Sistema de Help Desk"
+msgstr "View Help Desk System project"
+
+msgid "Monitor de Sistema"
+msgstr "System Monitor"
+
+msgid "Em Desenvolvimento"
+msgstr "In Development"
+
+msgid "Dashboard em tempo real com métricas de CPU, memória RAM e disco, alertas e histórico de uso."
+msgstr "Real-time dashboard with CPU, RAM and disk metrics, alerts and usage history."
+
+msgid "Ver projeto Monitor de Sistema"
+msgstr "View System Monitor project"
+
+msgid "Ver todos os projetos"
+msgstr "See all projects"
+
+msgid "Essa é minha história até aqui. O próximo capítulo? Talvez a gente escreva juntos."
+msgstr "That's my story so far. The next chapter? Maybe we'll write it together."
+
+msgid "Epílogo"
+msgstr "Epilogue"
+
+msgid "O Próximo Capítulo"
+msgstr "The Next Chapter"
+
+msgid "Estou em Natal (RN), pronto para colaborar remotamente ou presencialmente. Se você tem um desafio que precisa de dados bem contados, vamos conversar."
+msgstr "I'm in Natal (RN), ready to collaborate remotely or in person. If you have a challenge that needs data well told, let's talk."
+
+msgid "Perfil do GitHub de Roberto Fausto"
+msgstr "Roberto Fausto's GitHub profile"
+
+msgid "Perfil do LinkedIn de Roberto Fausto"
+msgstr "Roberto Fausto's LinkedIn profile"
+
+msgid "Enviar email para Roberto Fausto"
+msgstr "Send email to Roberto Fausto"
+
+msgid "Ir para a página de contato"
+msgstr "Go to the contact page"
+
+msgid "Entrar em Contato"
+msgstr "Get in Touch"
+
+msgid "Conheça minha história"
+msgstr "Learn my story"
+
+msgid "Uma trajetória construída por curiosidade, dedicação e a coragem de fazer a transição do Direito para a área de dados."
+msgstr "A journey built on curiosity, dedication and the courage to transition from Law to data."
+
+msgid "Analytics e BI · Ex-Advogado · Triatleta"
+msgstr "Analytics & BI · Ex-Attorney · Triathlete"
+
+msgid "Natal, Rio Grande do Norte, Brasil"
+msgstr "Natal, Rio Grande do Norte, Brazil"
+
+msgid "Informações"
+msgstr "Information"
+
+msgid "Formação"
+msgstr "Education"
+
+msgid "Análise e Desenvolvimento de Sistemas · Direito"
+msgstr "Systems Analysis & Development · Law"
+
+msgid "Foco"
+msgstr "Focus"
+
+msgid "Analytics e BI · Data Storytelling"
+msgstr "Analytics & BI · Data Storytelling"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Fora do trabalho"
+msgstr "Outside work"
+
+msgid "Triatleta — natação, ciclismo e corrida"
+msgstr "Triathlete — swimming, cycling and running"
+
+msgid "Minha Trajetória"
+msgstr "My Journey"
+
+msgid "Advocacia"
+msgstr "Law Practice"
+
+msgid "14 anos como advogado, desenvolvendo competências transferíveis valiosas: investigação de cenários complexos, raciocínio analítico, estruturação de problemas, gestão de prazos e comunicação objetiva com diferentes públicos e stakeholders. Transformar informações dispersas em narrativas claras e defensáveis foi sempre meu trabalho."
+msgstr "14 years as a lawyer, developing valuable transferable skills: investigating complex scenarios, analytical reasoning, problem structuring, deadline management and objective communication with diverse audiences and stakeholders. Turning scattered information into clear, defensible narratives was always my work."
+
+msgid "Formação em Tecnologia"
+msgstr "Technology Education"
+
+msgid "Graduação em Análise e Desenvolvimento de Sistemas pela UNINASSAU, consolidando conhecimentos em Python, SQL, banco de dados e desenvolvimento web — aliando formação técnica à vivência prática adquirida ao longo dos anos."
+msgstr "Degree in Systems Analysis and Development at UNINASSAU, consolidating knowledge in Python, SQL, databases and web development — combining technical education with the practical experience gained over the years."
+
+msgid "Transição para Dados"
+msgstr "Transition to Data"
+
+msgid "Presente"
+msgstr "Present"
+
+msgid "Em transição do Direito para Analytics e BI. Aplico a mesma lógica analítica da advocacia para definir perguntas relevantes, entender o contexto do negócio, organizar dados, identificar padrões, acompanhar KPIs e comunicar insights por meio de data storytelling — apoiando a tomada de decisão baseada em dados."
+msgstr "Transitioning from Law to Analytics & BI. I apply the same analytical logic from law practice to define relevant questions, understand business context, organize data, identify patterns, track KPIs and communicate insights through data storytelling — supporting data-driven decision making."
+
+msgid "Triatleta"
+msgstr "Triathlete"
+
+msgid "Sou triatleta e levo para o trabalho disciplina, consistência e mentalidade de melhoria contínua. O esporte me ensinou que resultados vêm de treino constante, planejamento e resiliência — qualidades que aplico diariamente na minha jornada de transição para dados."
+msgstr "I am a triathlete and I bring discipline, consistency and a mindset of continuous improvement to my work. Sport taught me that results come from constant training, planning and resilience — qualities I apply daily in my data transition journey."
+
+msgid "Foco em Resultados"
+msgstr "Results-Focused"
+
+msgid "Insights práticos que apoiam decisões"
+msgstr "Practical insights that support decisions"
+
+msgid "Aprendizado Contínuo"
+msgstr "Continuous Learning"
+
+msgid "Sempre evoluindo em dados e tecnologia"
+msgstr "Always evolving in data and technology"
+
+msgid "Comunicação Clara"
+msgstr "Clear Communication"
+
+msgid "Data storytelling para todos os públicos"
+msgstr "Data storytelling for all audiences"
+
+msgid "O que estou construindo"
+msgstr "What I'm building"
+
+msgid "Projetos desenvolvidos para demonstrar habilidades em análise de dados, automação com Python e visualização — cada projeto resolve um problema concreto de negócio."
+msgstr "Projects developed to demonstrate skills in data analysis, Python automation and visualization — each project solves a concrete business problem."
+
+msgid "Os projetos estão hospedados no Render (plano gratuito) e podem levar alguns segundos para iniciar na primeira visita."
+msgstr "Projects are hosted on Render (free plan) and may take a few seconds to start on the first visit."
+
+msgid "Sistema completo para criação, gerenciamento e acompanhamento de eventos. CRUD completo com filtros avançados e visualização em calendário."
+msgstr "Complete system for creating, managing and tracking events. Full CRUD with advanced filters and calendar view."
+
+msgid "Aplicação para controle de finanças pessoais com cadastro de receitas e despesas, gráficos interativos e relatórios exportáveis."
+msgstr "Personal finance control application with income and expense tracking, interactive charts and exportable reports."
+
+msgid "Plataforma de abertura e acompanhamento de chamados técnicos com níveis de prioridade, atribuição de responsáveis e histórico de alterações."
+msgstr "Platform for opening and tracking technical tickets with priority levels, assignee management and change history."
+
+msgid "Dashboard em tempo real exibindo métricas de CPU, memória RAM e disco do servidor, com alertas configuráveis e histórico de uso."
+msgstr "Real-time dashboard displaying server CPU, RAM and disk metrics, with configurable alerts and usage history."
+
+msgid "Quer ver o código-fonte dos projetos?"
+msgstr "Want to see the project source code?"
+
+msgid "Ver GitHub — Beto2024"
+msgstr "View GitHub — Beto2024"
+
+msgid "Análise & Visualização de Dados"
+msgstr "Data Analysis & Visualization"
+
+msgid "Confira abaixo alguns dos meus dashboards criados no Power BI, demonstrando habilidades em Analytics e BI — análise de dados, criação de KPIs, data storytelling e visualização estratégica de informações para apoiar a tomada de decisão."
+msgstr "Check out some of my Power BI dashboards below, showcasing Analytics & BI skills — data analysis, KPI creation, data storytelling and strategic information visualization to support decision-making."
+
+msgid "Dashboards interativos criados com Microsoft Power BI"
+msgstr "Interactive dashboards created with Microsoft Power BI"
+
+msgid "Análise de Vendas"
+msgstr "Sales Analysis"
+
+msgid "Comercial"
+msgstr "Sales"
+
+msgid "Painel com indicadores de performance de vendas, análise de produtos mais vendidos, sazonalidade e comparativo entre períodos. Ideal para tomada de decisão estratégica comercial."
+msgstr "Panel with sales performance indicators, top-selling product analysis, seasonality and period comparison. Ideal for strategic commercial decision-making."
+
+msgid "Faturamento Total"
+msgstr "Total Revenue"
+
+msgid "Ticket Médio"
+msgstr "Average Ticket"
+
+msgid "Qtd de Vendas"
+msgstr "Sales Volume"
+
+msgid "Meta vs. Realizado"
+msgstr "Target vs. Actual"
+
+msgid "Margem Bruta %"
+msgstr "Gross Margin %"
+
+msgid "Variação MoM%"
+msgstr "MoM Variation %"
+
+msgid "Top Produtos"
+msgstr "Top Products"
+
+msgid "Vendas por Região"
+msgstr "Sales by Region"
+
+msgid "Indicadores de RH"
+msgstr "HR Indicators"
+
+msgid "Recursos Humanos"
+msgstr "Human Resources"
+
+msgid "Painel de gestão de pessoas com indicadores de headcount, turnover, absenteísmo, distribuição por departamento e acompanhamento de metas de treinamento e desenvolvimento."
+msgstr "People management panel with headcount, turnover, absenteeism indicators, department distribution and training & development goal tracking."
+
+msgid "Headcount Ativo"
+msgstr "Active Headcount"
+
+msgid "Taxa de Turnover"
+msgstr "Turnover Rate"
+
+msgid "Taxa de Absenteísmo"
+msgstr "Absenteeism Rate"
+
+msgid "Admissões & Demissões"
+msgstr "Hires & Terminations"
+
+msgid "Horas T&D per Capita"
+msgstr "T&D Hours per Capita"
+
+msgid "Investimento em T&D"
+msgstr "T&D Investment"
+
+msgid "Salário Médio"
+msgstr "Average Salary"
+
+msgid "Massa Salarial"
+msgstr "Total Payroll"
+
+msgid "Visão consolidada das finanças com fluxo de caixa, DRE simplificado, análise de despesas por categoria e projeções mensais para suporte à gestão financeira estratégica."
+msgstr "Consolidated financial view with cash flow, simplified P&L, expense analysis by category and monthly projections to support strategic financial management."
+
+msgid "Financeiro"
+msgstr "Finance"
+
+msgid "Receita Total"
+msgstr "Total Revenue"
+
+msgid "Despesa Total"
+msgstr "Total Expenses"
+
+msgid "Lucro Líquido"
+msgstr "Net Profit"
+
+msgid "Margem EBITDA %"
+msgstr "EBITDA Margin %"
+
+msgid "Fluxo de Caixa Acumulado"
+msgstr "Cumulative Cash Flow"
+
+msgid "Variação MoM Despesas"
+msgstr "MoM Expense Variation"
+
+msgid "DRE Simplificado"
+msgstr "Simplified P&L"
+
+msgid "Sobre os Dados & Metodologia"
+msgstr "About the Data & Methodology"
+
+msgid "Todos os dashboards são construídos sobre dados fictícios gerados para fins de demonstração de competências técnicas em Analytics e Business Intelligence. Os dados simulam cenários realistas de negócio com variações sazonais, cobrindo o período de 2023 a 2025."
+msgstr "All dashboards are built on fictitious data generated for the purpose of demonstrating technical skills in Analytics and Business Intelligence. The data simulates realistic business scenarios with seasonal variations, covering the period from 2023 to 2025."
+
+msgid "Vendas"
+msgstr "Sales"
+
+msgid "591 transações fictícias"
+msgstr "591 fictitious transactions"
+
+msgid "30 produtos em 5 categorias"
+msgstr "30 products in 5 categories"
+
+msgid "10 vendedores, 8 regiões"
+msgstr "10 salespeople, 8 regions"
+
+msgid "Sazonalidade simulada"
+msgstr "Simulated seasonality"
+
+msgid "80 colaboradores fictícios"
+msgstr "80 fictitious employees"
+
+msgid "6 departamentos"
+msgstr "6 departments"
+
+msgid "120 movimentações"
+msgstr "120 workforce movements"
+
+msgid "200 registros de absenteísmo"
+msgstr "200 absenteeism records"
+
+msgid "465 lançamentos fictícios"
+msgstr "465 fictitious entries"
+
+msgid "20 categorias financeiras"
+msgstr "20 financial categories"
+
+msgid "8 centros de custo"
+msgstr "8 cost centers"
+
+msgid "DRE e fluxo de caixa"
+msgstr "P&L and cash flow"
+
+msgid "Perfil Profissional"
+msgstr "Professional Profile"
+
+msgid "Versão interativa do meu currículo profissional."
+msgstr "Interactive version of my professional resume."
+
+msgid "Download PDF"
+msgstr "Download PDF"
+
+msgid "Analytics e BI | Python, SQL, Power BI e Excel | Ex-Advogado | Triatleta"
+msgstr "Analytics & BI | Python, SQL, Power BI & Excel | Ex-Attorney | Triathlete"
+
+msgid "Objetivo Profissional"
+msgstr "Professional Objective"
+
+msgid "Atuar na área de Analytics e Business Intelligence, aplicando competências analíticas, ferramentas de dados e experiência em comunicação para apoiar a tomada de decisão baseada em dados. Busco colaborar com times multidisciplinares, atuar com melhoria contínua e entregar análises que tragam clareza ao negócio em um ambiente data driven."
+msgstr "To work in Analytics and Business Intelligence, applying analytical skills, data tools and communication experience to support data-driven decision making. I seek to collaborate with multidisciplinary teams, pursue continuous improvement and deliver analyses that bring clarity to the business in a data-driven environment."
+
+msgid "Formação Acadêmica"
+msgstr "Academic Background"
+
+msgid "CST em Análise e Desenvolvimento de Sistemas"
+msgstr "Associate Degree in Systems Analysis and Development"
+
+msgid "Python, SQL, banco de dados e desenvolvimento web"
+msgstr "Python, SQL, databases and web development"
+
+msgid "Análise de sistemas e levantamento de requisitos"
+msgstr "Systems analysis and requirements gathering"
+
+msgid "Engenharia de software e boas práticas de desenvolvimento"
+msgstr "Software engineering and development best practices"
+
+msgid "Bacharelado em Direito"
+msgstr "Bachelor of Laws (LLB)"
+
+msgid "Universidade Potiguar"
+msgstr "Universidade Potiguar"
+
+msgid "Raciocínio analítico, argumentação e estruturação de problemas"
+msgstr "Analytical reasoning, argumentation and problem structuring"
+
+msgid "Investigação de cenários complexos e comunicação objetiva"
+msgstr "Investigation of complex scenarios and objective communication"
+
+msgid "Experiência Profissional"
+msgstr "Professional Experience"
+
+msgid "Advogado"
+msgstr "Lawyer"
+
+msgid "Autônomo"
+msgstr "Self-employed"
+
+msgid "2009 – 2023 (14 anos)"
+msgstr "2009 – 2023 (14 years)"
+
+msgid "Investigação analítica de cenários jurídicos complexos"
+msgstr "Analytical investigation of complex legal scenarios"
+
+msgid "Estruturação de problemas e definição de estratégias baseadas em evidências"
+msgstr "Problem structuring and definition of evidence-based strategies"
+
+msgid "Gestão de prazos e priorização em múltiplos projetos simultâneos"
+msgstr "Deadline management and prioritization across multiple simultaneous projects"
+
+msgid "Comunicação objetiva com diferentes públicos e stakeholders"
+msgstr "Objective communication with diverse audiences and stakeholders"
+
+msgid "Transformação de informações dispersas em narrativas claras e defensáveis"
+msgstr "Transforming scattered information into clear, defensible narratives"
+
+msgid "Competências Técnicas"
+msgstr "Technical Skills"
+
+msgid "Power BI (dashboards e relatórios)"
+msgstr "Power BI (dashboards & reports)"
+
+msgid "Excel (análise avançada e automação)"
+msgstr "Excel (advanced analysis & automation)"
+
+msgid "SQL (extração, tratamento e análise)"
+msgstr "SQL (extraction, processing & analysis)"
+
+msgid "Python (automação, pandas, numpy)"
+msgstr "Python (automation, pandas, numpy)"
+
+msgid "Flask (desenvolvimento web backend)"
+msgstr "Flask (backend web development)"
+
+msgid "Git e GitHub (controle de versão)"
+msgstr "Git & GitHub (version control)"
+
+msgid "Competências Transferíveis"
+msgstr "Transferable Skills"
+
+msgid "Raciocínio analítico"
+msgstr "Analytical reasoning"
+
+msgid "Data storytelling"
+msgstr "Data storytelling"
+
+msgid "Gestão de prazos"
+msgstr "Deadline management"
+
+msgid "Comunicação com stakeholders"
+msgstr "Stakeholder communication"
+
+msgid "Estruturação de problemas"
+msgstr "Problem structuring"
+
+msgid "Melhoria contínua"
+msgstr "Continuous improvement"
+
+msgid "Português"
+msgstr "Portuguese"
+
+msgid "Nativo"
+msgstr "Native"
+
+msgid "Leitura técnica e comunicação"
+msgstr "Technical reading and communication"
+
+msgid "Informações Adicionais"
+msgstr "Additional Information"
+
+msgid "disciplina, consistência e mentalidade de melhoria contínua aplicadas ao trabalho diário."
+msgstr "discipline, consistency and a continuous improvement mindset applied to daily work."
+
+msgid "Forte familiaridade com hardware, software e fundamentos de TI, com rápida adaptação a novas ferramentas."
+msgstr "Strong familiarity with hardware, software and IT fundamentals, with quick adaptation to new tools."
+
+msgid "Vamos conversar"
+msgstr "Let's talk"
+
+msgid "Entre em Contato"
+msgstr "Get in Touch"
+
+msgid "Estou aberto a novas oportunidades, projetos e parcerias. Sinta-se à vontade para entrar em contato!"
+msgstr "I'm open to new opportunities, projects and partnerships. Feel free to reach out!"
+
+msgid "Envie uma mensagem"
+msgstr "Send a message"
+
+msgid "Nome completo"
+msgstr "Full name"
+
+msgid "Seu nome"
+msgstr "Your name"
+
+msgid "E-mail"
+msgstr "Email"
+
+msgid "seu@email.com"
+msgstr "your@email.com"
+
+msgid "Assunto"
+msgstr "Subject"
+
+msgid "Proposta de emprego, projeto, parceria..."
+msgstr "Job offer, project, partnership..."
+
+msgid "Mensagem"
+msgstr "Message"
+
+msgid "Escreva sua mensagem aqui..."
+msgstr "Write your message here..."
+
+msgid "Enviar Mensagem"
+msgstr "Send Message"
+
+msgid "Formulário demonstrativo — para contato imediato, use o e-mail ou o GitHub abaixo."
+msgstr "Demo form — for immediate contact, use the email or GitHub below."
+
+msgid "Canais de contato"
+msgstr "Contact channels"
+
+msgid "Localização"
+msgstr "Location"
+
+msgid "Aberto a propostas de emprego CLT ou PJ, projetos freelance e colaborações em projetos open source."
+msgstr "Open to full-time or freelance job proposals and open source project collaborations."
+
+msgid "Página não encontrada"
+msgstr "Page not found"
+
+msgid "Parece que esta página foi para outro lugar. Assim como eu na infância desmontando computadores — às vezes as peças acabam em lugares inesperados! 😄"
+msgstr "Looks like this page went somewhere else. Just like me as a kid taking apart computers — sometimes the pieces end up in unexpected places! 😄"
+
+msgid "Voltar para o Início"
+msgstr "Back to Home"
+
+msgid "Ou navegue por aqui"
+msgstr "Or navigate here"
+
+msgid "Sobre Roberto Fausto"
+msgstr "About Roberto Fausto"
+
+msgid "Sobre Mim"
+msgstr "About Me"

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Projetos | Roberto Fausto{% endblock %}
-{% block og_title %}Projetos — Roberto Fausto{% endblock %}
+{% block title %}{{ _('Projetos') }} | Roberto Fausto{% endblock %}
+{% block og_title %}{{ _('Projetos') }} — Roberto Fausto{% endblock %}
 
 {% block content %}
 
@@ -10,12 +10,12 @@
 
         <!-- Cabeçalho -->
         <div class="text-center mb-16 fade-in-up">
-            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">O que estou construindo</p>
+            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">{{ _('O que estou construindo') }}</p>
             <h1 class="text-4xl sm:text-5xl font-black mb-4">
-                <span class="gradient-text">Projetos</span>
+                <span class="gradient-text">{{ _('Projetos') }}</span>
             </h1>
             <p class="text-gray-400 max-w-xl mx-auto">
-                Projetos desenvolvidos para demonstrar habilidades em análise de dados, automação com Python e visualização — cada projeto resolve um problema concreto de negócio.
+                {{ _('Projetos desenvolvidos para demonstrar habilidades em análise de dados, automação com Python e visualização — cada projeto resolve um problema concreto de negócio.') }}
             </p>
         </div>
 
@@ -25,7 +25,7 @@
                 <svg class="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
-                <span>Os projetos estão hospedados no Render (plano gratuito) e podem levar alguns segundos para iniciar na primeira visita.</span>
+                <span>{{ _('Os projetos estão hospedados no Render (plano gratuito) e podem levar alguns segundos para iniciar na primeira visita.') }}</span>
             </div>
         </div>
 
@@ -40,14 +40,13 @@
                         <span class="text-3xl">📅</span>
                     </div>
                     <h2 class="text-lg font-bold text-white group-hover:text-blue-400 transition-colors duration-300">
-                        Gerenciador de Eventos
+                        {{ _('Gerenciador de Eventos') }}
                     </h2>
                 </div>
                 <!-- Corpo do card -->
                 <div class="flex-1 p-6">
                     <p class="text-sm text-gray-400 leading-relaxed mb-4">
-                        Sistema completo para criação, gerenciamento e acompanhamento de eventos.
-                        CRUD completo com filtros avançados e visualização em calendário.
+                        {{ _('Sistema completo para criação, gerenciamento e acompanhamento de eventos. CRUD completo com filtros avançados e visualização em calendário.') }}
                     </p>
                     <!-- Badges de tecnologia -->
                     <div class="flex flex-wrap gap-2 mb-6">
@@ -57,7 +56,7 @@
                         <span class="tech-badge px-2.5 py-1 bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 rounded-full text-xs font-medium">Tailwind CSS</span>
                     </div>
                     <a href="https://gerenciador-de-eventos-ex61.onrender.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors duration-200">
-                        <span>Ver Projeto</span>
+                        <span>{{ _('Ver Projeto') }}</span>
                         <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
@@ -72,13 +71,12 @@
                         <span class="text-3xl">💰</span>
                     </div>
                     <h2 class="text-lg font-bold text-white group-hover:text-green-400 transition-colors duration-300">
-                        Dashboard Financeiro
+                        {{ _('Dashboard Financeiro') }}
                     </h2>
                 </div>
                 <div class="flex-1 p-6">
                     <p class="text-sm text-gray-400 leading-relaxed mb-4">
-                        Aplicação para controle de finanças pessoais com cadastro de receitas e despesas,
-                        gráficos interativos e relatórios exportáveis.
+                        {{ _('Aplicação para controle de finanças pessoais com cadastro de receitas e despesas, gráficos interativos e relatórios exportáveis.') }}
                     </p>
                     <div class="flex flex-wrap gap-2 mb-6">
                         <span class="tech-badge px-2.5 py-1 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full text-xs font-medium">Python</span>
@@ -87,7 +85,7 @@
                         <span class="tech-badge px-2.5 py-1 bg-purple-500/10 text-purple-400 border border-purple-500/20 rounded-full text-xs font-medium">Chart.js</span>
                     </div>
                     <a href="https://dashboard-financeiro-9vqq.onrender.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 text-sm font-semibold text-green-400 hover:text-green-300 transition-colors duration-200">
-                        <span>Ver Projeto</span>
+                        <span>{{ _('Ver Projeto') }}</span>
                         <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
@@ -102,13 +100,12 @@
                         <span class="text-3xl">🎫</span>
                     </div>
                     <h2 class="text-lg font-bold text-white group-hover:text-orange-400 transition-colors duration-300">
-                        Sistema de Help Desk
+                        {{ _('Sistema de Help Desk') }}
                     </h2>
                 </div>
                 <div class="flex-1 p-6">
                     <p class="text-sm text-gray-400 leading-relaxed mb-4">
-                        Plataforma de abertura e acompanhamento de chamados técnicos com
-                        níveis de prioridade, atribuição de responsáveis e histórico de alterações.
+                        {{ _('Plataforma de abertura e acompanhamento de chamados técnicos com níveis de prioridade, atribuição de responsáveis e histórico de alterações.') }}
                     </p>
                     <div class="flex flex-wrap gap-2 mb-6">
                         <span class="tech-badge px-2.5 py-1 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full text-xs font-medium">Python</span>
@@ -117,7 +114,7 @@
                         <span class="tech-badge px-2.5 py-1 bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 rounded-full text-xs font-medium">Tailwind CSS</span>
                     </div>
                     <a href="https://sistema-de-help-desk.onrender.com/auth/login?next=%2F" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 text-sm font-semibold text-orange-400 hover:text-orange-300 transition-colors duration-200">
-                        <span>Ver Projeto</span>
+                        <span>{{ _('Ver Projeto') }}</span>
                         <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
@@ -132,17 +129,16 @@
                         <span class="text-3xl">📡</span>
                         <span class="inline-flex items-center space-x-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">
                             <span class="w-1.5 h-1.5 bg-yellow-400 rounded-full animate-pulse"></span>
-                            <span>Em Desenvolvimento</span>
+                            <span>{{ _('Em Desenvolvimento') }}</span>
                         </span>
                     </div>
                     <h2 class="text-lg font-bold text-white group-hover:text-purple-400 transition-colors duration-300">
-                        Monitor de Sistema
+                        {{ _('Monitor de Sistema') }}
                     </h2>
                 </div>
                 <div class="flex-1 p-6">
                     <p class="text-sm text-gray-400 leading-relaxed mb-4">
-                        Dashboard em tempo real exibindo métricas de CPU, memória RAM e disco do servidor,
-                        com alertas configuráveis e histórico de uso.
+                        {{ _('Dashboard em tempo real exibindo métricas de CPU, memória RAM e disco do servidor, com alertas configuráveis e histórico de uso.') }}
                     </p>
                     <div class="flex flex-wrap gap-2 mb-6">
                         <span class="tech-badge px-2.5 py-1 bg-blue-500/10 text-blue-400 border border-blue-500/20 rounded-full text-xs font-medium">Python</span>
@@ -151,7 +147,7 @@
                         <span class="tech-badge px-2.5 py-1 bg-purple-500/10 text-purple-400 border border-purple-500/20 rounded-full text-xs font-medium">psutil</span>
                     </div>
                     <a href="https://monitor-de-sistema-p52x.onrender.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 text-sm font-semibold text-purple-400 hover:text-purple-300 transition-colors duration-200">
-                        <span>Ver Projeto</span>
+                        <span>{{ _('Ver Projeto') }}</span>
                         <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                         </svg>
@@ -164,13 +160,13 @@
         <!-- Chamada para ação -->
         <div class="text-center mt-14 fade-in-up">
             <div class="inline-block bg-gray-900/50 border border-gray-800 rounded-2xl px-8 py-6">
-                <p class="text-gray-400 text-sm mb-3">Quer ver o código-fonte dos projetos?</p>
+                <p class="text-gray-400 text-sm mb-3">{{ _('Quer ver o código-fonte dos projetos?') }}</p>
                 <a href="https://github.com/Beto2024" target="_blank" rel="noopener noreferrer"
                    class="inline-flex items-center space-x-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-blue-500/50 text-white rounded-xl font-medium transition-all duration-300">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/>
                     </svg>
-                    <span>Ver GitHub — Beto2024</span>
+                    <span>{{ _('Ver GitHub — Beto2024') }}</span>
                 </a>
             </div>
         </div>

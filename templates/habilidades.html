@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Habilidades | Roberto Fausto{% endblock %}
-{% block og_title %}Habilidades Técnicas — Roberto Fausto | Analytics e BI{% endblock %}
+{% block title %}{{ _('Habilidades') }} | Roberto Fausto{% endblock %}
+{% block og_title %}{{ _('Habilidades') }} Técnicas — Roberto Fausto | Analytics e BI{% endblock %}
 
 {% block content %}
 
@@ -10,12 +10,12 @@
 
         <!-- Cabeçalho -->
         <div class="text-center mb-16 fade-in-up">
-            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">O que sei fazer</p>
+            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">{{ _('O que sei fazer') }}</p>
             <h1 class="text-4xl sm:text-5xl font-black mb-4">
-                <span class="gradient-text">Habilidades</span>
+                <span class="gradient-text">{{ _('Habilidades') }}</span>
             </h1>
             <p class="text-gray-400 max-w-xl mx-auto">
-                Ferramentas e competências focadas em Analytics e BI — combinando experiência analítica, domínio de dados e comunicação eficaz.
+                {{ _('Ferramentas e competências focadas em Analytics e BI — combinando experiência analítica, domínio de dados e comunicação eficaz.') }}
             </p>
         </div>
 
@@ -29,12 +29,12 @@
                         <div class="w-12 h-12 bg-yellow-500/10 rounded-xl flex items-center justify-center text-2xl">📊</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Power BI</h3>
-                            <p class="text-xs text-gray-500">Business Intelligence</p>
+                            <p class="text-xs text-gray-500">{{ _('Business Intelligence') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">Avançado</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">{{ _('Avançado') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Criação de dashboards interativos, indicadores, relatórios e visualizações estratégicas.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Criação de dashboards interativos, indicadores, relatórios e visualizações estratégicas.') }}</p>
             </div>
 
             <!-- Excel -->
@@ -44,12 +44,12 @@
                         <div class="w-12 h-12 bg-green-500/10 rounded-xl flex items-center justify-center text-2xl">📈</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Excel</h3>
-                            <p class="text-xs text-gray-500">Análise e Automação</p>
+                            <p class="text-xs text-gray-500">{{ _('Análise e Automação') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">Avançado</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">{{ _('Avançado') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Análise avançada, tabelas dinâmicas, fórmulas complexas e automação de relatórios.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Análise avançada, tabelas dinâmicas, fórmulas complexas e automação de relatórios.') }}</p>
             </div>
 
             <!-- Data Storytelling -->
@@ -59,12 +59,12 @@
                         <div class="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center text-2xl">📖</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Data Storytelling</h3>
-                            <p class="text-xs text-gray-500">Comunicação de Insights</p>
+                            <p class="text-xs text-gray-500">{{ _('Comunicação de Insights') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">Avançado</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">{{ _('Avançado') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Comunicação de insights de forma prática e visual para apoiar decisões estratégicas.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Comunicação de insights de forma prática e visual para apoiar decisões estratégicas.') }}</p>
             </div>
 
             <!-- SQL -->
@@ -74,12 +74,12 @@
                         <div class="w-12 h-12 bg-purple-500/10 rounded-xl flex items-center justify-center text-2xl">🗄️</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">SQL</h3>
-                            <p class="text-xs text-gray-500">Banco de dados</p>
+                            <p class="text-xs text-gray-500">{{ _('Banco de dados') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">Avançado</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">{{ _('Avançado') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Extração, tratamento, validação e análise de dados em bancos relacionais.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Extração, tratamento, validação e análise de dados em bancos relacionais.') }}</p>
             </div>
 
             <!-- Raciocínio Analítico -->
@@ -88,13 +88,13 @@
                     <div class="flex items-center space-x-3">
                         <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center text-2xl">🧩</div>
                         <div>
-                            <h3 class="text-lg font-bold text-white">Raciocínio Analítico</h3>
-                            <p class="text-xs text-gray-500">Competência transferível</p>
+                            <h3 class="text-lg font-bold text-white">{{ _('Raciocínio Analítico') }}</h3>
+                            <p class="text-xs text-gray-500">{{ _('Competência transferível') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-yellow-400 bg-yellow-400/10 border border-yellow-400/30">Expert</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-yellow-400 bg-yellow-400/10 border border-yellow-400/30">{{ _('Expert') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">14 anos de experiência investigando cenários complexos e estruturando problemas na advocacia.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('14 anos de experiência investigando cenários complexos e estruturando problemas na advocacia.') }}</p>
             </div>
 
             <!-- Python -->
@@ -104,12 +104,12 @@
                         <div class="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center text-2xl">🐍</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Python</h3>
-                            <p class="text-xs text-gray-500">Automação e dados</p>
+                            <p class="text-xs text-gray-500">{{ _('Automação e dados') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">Intermediário</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">{{ _('Intermediário') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Automação, limpeza e manipulação de dados com pandas e numpy.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Automação, limpeza e manipulação de dados com pandas e numpy.') }}</p>
             </div>
 
             <!-- Flask -->
@@ -119,12 +119,12 @@
                         <div class="w-12 h-12 bg-red-500/10 rounded-xl flex items-center justify-center text-2xl">🌶️</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Flask</h3>
-                            <p class="text-xs text-gray-500">Web Framework</p>
+                            <p class="text-xs text-gray-500">{{ _('Web Framework') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">Intermediário</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">{{ _('Intermediário') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Desenvolvimento web backend com Python.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Desenvolvimento web backend com Python.') }}</p>
             </div>
 
             <!-- Git / GitHub -->
@@ -134,12 +134,12 @@
                         <div class="w-12 h-12 bg-green-500/10 rounded-xl flex items-center justify-center text-2xl">📂</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Git / GitHub</h3>
-                            <p class="text-xs text-gray-500">Controle de versão</p>
+                            <p class="text-xs text-gray-500">{{ _('Controle de versão') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">Intermediário</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">{{ _('Intermediário') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Controle de versão e colaboração em projetos.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Controle de versão e colaboração em projetos.') }}</p>
             </div>
 
             <!-- Hardware / Infraestrutura -->
@@ -149,12 +149,12 @@
                         <div class="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center text-2xl">🔧</div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Hardware / Infra</h3>
-                            <p class="text-xs text-gray-500">Suporte &amp; Manutenção</p>
+                            <p class="text-xs text-gray-500">{{ _('Suporte & Manutenção') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">Avançado</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-green-400 bg-green-400/10 border border-green-400/30">{{ _('Avançado') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Montagem, configuração e manutenção de computadores desde a infância.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Montagem, configuração e manutenção de computadores desde a infância.') }}</p>
             </div>
 
             <!-- Inglês -->
@@ -163,20 +163,20 @@
                     <div class="flex items-center space-x-3">
                         <div class="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center text-2xl">🌍</div>
                         <div>
-                            <h3 class="text-lg font-bold text-white">Inglês</h3>
-                            <p class="text-xs text-gray-500">Idiomas</p>
+                            <h3 class="text-lg font-bold text-white">{{ _('Inglês') }}</h3>
+                            <p class="text-xs text-gray-500">{{ _('Idiomas') }}</p>
                         </div>
                     </div>
-                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">Intermediário</span>
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full text-blue-400 bg-blue-400/10 border border-blue-400/30">{{ _('Intermediário') }}</span>
                 </div>
-                <p class="text-sm text-gray-400 mb-4">Leitura e escrita avançadas, conversação e comunicação profissional em nível intermediário.</p>
+                <p class="text-sm text-gray-400 mb-4">{{ _('Leitura e escrita avançadas, conversação e comunicação profissional em nível intermediário.') }}</p>
             </div>
 
         </div>
 
         <!-- Nota de rodapé -->
         <p class="text-center text-xs text-gray-600 mt-10 fade-in-up">
-            * Níveis baseados em autoavaliação e experiência prática acumulada: Iniciante · Intermediário · Avançado · Expert
+            {{ _('* Níveis baseados em autoavaliação e experiência prática acumulada: Iniciante · Intermediário · Avançado · Expert') }}
         </p>
 
     </div>

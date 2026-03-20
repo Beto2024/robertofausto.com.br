@@ -2,7 +2,7 @@ services:
   - type: web
     name: robertofausto
     runtime: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r requirements.txt && pybabel compile -d translations
     startCommand: gunicorn app:app
     plan: free
     envVars:

@@ -1,0 +1,748 @@
+# Portuguese translations for robertofausto.com.br
+# Copyright (C) 2024 Roberto Fausto
+msgid ""
+msgstr ""
+"Project-Id-Version: robertofausto 1.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Roberto Fausto\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+msgid "Início"
+msgstr "Início"
+
+msgid "Sobre"
+msgstr "Sobre"
+
+msgid "Habilidades"
+msgstr "Habilidades"
+
+msgid "Projetos"
+msgstr "Projetos"
+
+msgid "Dashboards Power BI"
+msgstr "Dashboards Power BI"
+
+msgid "Currículo"
+msgstr "Currículo"
+
+msgid "Contato"
+msgstr "Contato"
+
+msgid "Sobre Mim"
+msgstr "Sobre Mim"
+
+msgid "Abrir menu de navegação"
+msgstr "Abrir menu de navegação"
+
+msgid "Enviar email"
+msgstr "Enviar email"
+
+msgid "Analytics e BI · Ex-Advogado · Triatleta 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️"
+msgstr "Analytics e BI · Ex-Advogado · Triatleta 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️"
+
+msgid "Todos os direitos reservados."
+msgstr "Todos os direitos reservados."
+
+msgid "O que sei fazer"
+msgstr "O que sei fazer"
+
+msgid "Ferramentas e competências focadas em Analytics e BI — combinando experiência analítica, domínio de dados e comunicação eficaz."
+msgstr "Ferramentas e competências focadas em Analytics e BI — combinando experiência analítica, domínio de dados e comunicação eficaz."
+
+msgid "Business Intelligence"
+msgstr "Business Intelligence"
+
+msgid "Avançado"
+msgstr "Avançado"
+
+msgid "Criação de dashboards interativos, indicadores, relatórios e visualizações estratégicas."
+msgstr "Criação de dashboards interativos, indicadores, relatórios e visualizações estratégicas."
+
+msgid "Análise e Automação"
+msgstr "Análise e Automação"
+
+msgid "Análise avançada, tabelas dinâmicas, fórmulas complexas e automação de relatórios."
+msgstr "Análise avançada, tabelas dinâmicas, fórmulas complexas e automação de relatórios."
+
+msgid "Comunicação de Insights"
+msgstr "Comunicação de Insights"
+
+msgid "Comunicação de insights de forma prática e visual para apoiar decisões estratégicas."
+msgstr "Comunicação de insights de forma prática e visual para apoiar decisões estratégicas."
+
+msgid "Banco de dados"
+msgstr "Banco de dados"
+
+msgid "Extração, tratamento, validação e análise de dados em bancos relacionais."
+msgstr "Extração, tratamento, validação e análise de dados em bancos relacionais."
+
+msgid "Raciocínio Analítico"
+msgstr "Raciocínio Analítico"
+
+msgid "Competência transferível"
+msgstr "Competência transferível"
+
+msgid "Expert"
+msgstr "Expert"
+
+msgid "14 anos de experiência investigando cenários complexos e estruturando problemas na advocacia."
+msgstr "14 anos de experiência investigando cenários complexos e estruturando problemas na advocacia."
+
+msgid "Automação e dados"
+msgstr "Automação e dados"
+
+msgid "Intermediário"
+msgstr "Intermediário"
+
+msgid "Automação, limpeza e manipulação de dados com pandas e numpy."
+msgstr "Automação, limpeza e manipulação de dados com pandas e numpy."
+
+msgid "Web Framework"
+msgstr "Web Framework"
+
+msgid "Desenvolvimento web backend com Python."
+msgstr "Desenvolvimento web backend com Python."
+
+msgid "Controle de versão"
+msgstr "Controle de versão"
+
+msgid "Controle de versão e colaboração em projetos."
+msgstr "Controle de versão e colaboração em projetos."
+
+msgid "Suporte & Manutenção"
+msgstr "Suporte & Manutenção"
+
+msgid "Montagem, configuração e manutenção de computadores desde a infância."
+msgstr "Montagem, configuração e manutenção de computadores desde a infância."
+
+msgid "Inglês"
+msgstr "Inglês"
+
+msgid "Idiomas"
+msgstr "Idiomas"
+
+msgid "Leitura e escrita avançadas, conversação e comunicação profissional em nível intermediário."
+msgstr "Leitura e escrita avançadas, conversação e comunicação profissional em nível intermediário."
+
+msgid "* Níveis baseados em autoavaliação e experiência prática acumulada: Iniciante · Intermediário · Avançado · Expert"
+msgstr "* Níveis baseados em autoavaliação e experiência prática acumulada: Iniciante · Intermediário · Avançado · Expert"
+
+msgid "Disponível para oportunidades"
+msgstr "Disponível para oportunidades"
+
+msgid "Analytics e BI"
+msgstr "Analytics e BI"
+
+msgid "Ex-advogado com 14 anos de experiência em transição para a área de dados. Combino raciocínio analítico, estruturação de problemas e comunicação objetiva com Python, SQL, Power BI e Excel para transformar dados em insights que apoiam decisões e geram impacto."
+msgstr "Ex-advogado com 14 anos de experiência em transição para a área de dados. Combino raciocínio analítico, estruturação de problemas e comunicação objetiva com Python, SQL, Power BI e Excel para transformar dados em insights que apoiam decisões e geram impacto."
+
+msgid "Rolar para a seção Jornada"
+msgstr "Rolar para a seção Jornada"
+
+msgid "Conheça minha história ↓"
+msgstr "Conheça minha história ↓"
+
+msgid "Baixar currículo em PDF"
+msgstr "Baixar currículo em PDF"
+
+msgid "Download CV"
+msgstr "Download CV"
+
+msgid "visitas"
+msgstr "visitas"
+
+msgid "Scroll"
+msgstr "Scroll"
+
+msgid "Capítulo 1"
+msgstr "Capítulo 1"
+
+msgid "A Jornada"
+msgstr "A Jornada"
+
+msgid "Durante 14 anos como advogado, aprendi que o verdadeiro trabalho começa quando todos os fatos estão na mesa — e alguém precisa enxergar o que os números escondem. Investigar processos complexos, estruturar argumentos e comunicar conclusões de forma clara não era apenas minha rotina: era minha segunda natureza."
+msgstr "Durante 14 anos como advogado, aprendi que o verdadeiro trabalho começa quando todos os fatos estão na mesa — e alguém precisa enxergar o que os números escondem. Investigar processos complexos, estruturar argumentos e comunicar conclusões de forma clara não era apenas minha rotina: era minha segunda natureza."
+
+msgid "Em 2024, decidi dar nome a essa habilidade: Analytics e BI. Iniciei o CST em Análise e Desenvolvimento de Sistemas na UNINASSAU e mergulhei em Python, SQL, Power BI e Flask. A lógica jurídica e a lógica de dados são surpreendentemente parecidas — ambas exigem precisão, contexto e a capacidade de contar uma história convincente com as evidências disponíveis."
+msgstr "Em 2024, decidi dar nome a essa habilidade: Analytics e BI. Iniciei o CST em Análise e Desenvolvimento de Sistemas na UNINASSAU e mergulhei em Python, SQL, Power BI e Flask. A lógica jurídica e a lógica de dados são surpreendentemente parecidas — ambas exigem precisão, contexto e a capacidade de contar uma história convincente com as evidências disponíveis."
+
+msgid "Fora do teclado, sou triatleta 🏊‍♂️🚴‍♂️🏃‍♂️ — e isso diz muito sobre como encaro os desafios. Consistência diária, tolerância ao desconforto e foco no longo prazo são habilidades que o esporte ensina e que trago para cada projeto. Não busco a perfeição instantânea; busco a melhoria contínua."
+msgstr "Fora do teclado, sou triatleta 🏊‍♂️🚴‍♂️🏃‍♂️ — e isso diz muito sobre como encaro os desafios. Consistência diária, tolerância ao desconforto e foco no longo prazo são habilidades que o esporte ensina e que trago para cada projeto. Não busco a perfeição instantânea; busco a melhoria contínua."
+
+msgid "Conhecer a história completa de Roberto Fausto"
+msgstr "Conhecer a história completa de Roberto Fausto"
+
+msgid "Conhecer a história completa"
+msgstr "Conhecer a história completa"
+
+msgid "E ao longo dessa jornada, fui montando meu arsenal de ferramentas..."
+msgstr "E ao longo dessa jornada, fui montando meu arsenal de ferramentas..."
+
+msgid "Capítulo 2"
+msgstr "Capítulo 2"
+
+msgid "As Ferramentas"
+msgstr "As Ferramentas"
+
+msgid "O arsenal construído ao longo da transição"
+msgstr "O arsenal construído ao longo da transição"
+
+msgid "Ver detalhes completos das habilidades"
+msgstr "Ver detalhes completos das habilidades"
+
+msgid "Ver detalhes completos"
+msgstr "Ver detalhes completos"
+
+msgid "Com essas ferramentas em mãos, comecei a dar vida às minhas ideias..."
+msgstr "Com essas ferramentas em mãos, comecei a dar vida às minhas ideias..."
+
+msgid "Capítulo 3"
+msgstr "Capítulo 3"
+
+msgid "As Conquistas"
+msgstr "As Conquistas"
+
+msgid "Projetos que saíram do papel e foram para o ar"
+msgstr "Projetos que saíram do papel e foram para o ar"
+
+msgid "Os projetos estão hospedados no plano gratuito do Render — pode haver um delay de até 1 minuto na primeira abertura."
+msgstr "Os projetos estão hospedados no plano gratuito do Render — pode haver um delay de até 1 minuto na primeira abertura."
+
+msgid "Gerenciador de Eventos"
+msgstr "Gerenciador de Eventos"
+
+msgid "Sistema completo para criação, gerenciamento e acompanhamento de eventos com CRUD e filtros avançados."
+msgstr "Sistema completo para criação, gerenciamento e acompanhamento de eventos com CRUD e filtros avançados."
+
+msgid "Ver projeto Gerenciador de Eventos"
+msgstr "Ver projeto Gerenciador de Eventos"
+
+msgid "Ver Projeto"
+msgstr "Ver Projeto"
+
+msgid "Dashboard Financeiro"
+msgstr "Dashboard Financeiro"
+
+msgid "Controle de finanças pessoais com cadastro de receitas/despesas, gráficos interativos e relatórios exportáveis."
+msgstr "Controle de finanças pessoais com cadastro de receitas/despesas, gráficos interativos e relatórios exportáveis."
+
+msgid "Ver projeto Dashboard Financeiro"
+msgstr "Ver projeto Dashboard Financeiro"
+
+msgid "Sistema de Help Desk"
+msgstr "Sistema de Help Desk"
+
+msgid "Plataforma de chamados técnicos com prioridades, atribuição de responsáveis e histórico de alterações."
+msgstr "Plataforma de chamados técnicos com prioridades, atribuição de responsáveis e histórico de alterações."
+
+msgid "Ver projeto Sistema de Help Desk"
+msgstr "Ver projeto Sistema de Help Desk"
+
+msgid "Monitor de Sistema"
+msgstr "Monitor de Sistema"
+
+msgid "Em Desenvolvimento"
+msgstr "Em Desenvolvimento"
+
+msgid "Dashboard em tempo real com métricas de CPU, memória RAM e disco, alertas e histórico de uso."
+msgstr "Dashboard em tempo real com métricas de CPU, memória RAM e disco, alertas e histórico de uso."
+
+msgid "Ver projeto Monitor de Sistema"
+msgstr "Ver projeto Monitor de Sistema"
+
+msgid "Ver todos os projetos"
+msgstr "Ver todos os projetos"
+
+msgid "Essa é minha história até aqui. O próximo capítulo? Talvez a gente escreva juntos."
+msgstr "Essa é minha história até aqui. O próximo capítulo? Talvez a gente escreva juntos."
+
+msgid "Epílogo"
+msgstr "Epílogo"
+
+msgid "O Próximo Capítulo"
+msgstr "O Próximo Capítulo"
+
+msgid "Estou em Natal (RN), pronto para colaborar remotamente ou presencialmente. Se você tem um desafio que precisa de dados bem contados, vamos conversar."
+msgstr "Estou em Natal (RN), pronto para colaborar remotamente ou presencialmente. Se você tem um desafio que precisa de dados bem contados, vamos conversar."
+
+msgid "Perfil do GitHub de Roberto Fausto"
+msgstr "Perfil do GitHub de Roberto Fausto"
+
+msgid "Perfil do LinkedIn de Roberto Fausto"
+msgstr "Perfil do LinkedIn de Roberto Fausto"
+
+msgid "Enviar email para Roberto Fausto"
+msgstr "Enviar email para Roberto Fausto"
+
+msgid "Ir para a página de contato"
+msgstr "Ir para a página de contato"
+
+msgid "Entrar em Contato"
+msgstr "Entrar em Contato"
+
+msgid "Conheça minha história"
+msgstr "Conheça minha história"
+
+msgid "Uma trajetória construída por curiosidade, dedicação e a coragem de fazer a transição do Direito para a área de dados."
+msgstr "Uma trajetória construída por curiosidade, dedicação e a coragem de fazer a transição do Direito para a área de dados."
+
+msgid "Analytics e BI · Ex-Advogado · Triatleta"
+msgstr "Analytics e BI · Ex-Advogado · Triatleta"
+
+msgid "Natal, Rio Grande do Norte, Brasil"
+msgstr "Natal, Rio Grande do Norte, Brasil"
+
+msgid "Informações"
+msgstr "Informações"
+
+msgid "Formação"
+msgstr "Formação"
+
+msgid "Análise e Desenvolvimento de Sistemas · Direito"
+msgstr "Análise e Desenvolvimento de Sistemas · Direito"
+
+msgid "Foco"
+msgstr "Foco"
+
+msgid "Analytics e BI · Data Storytelling"
+msgstr "Analytics e BI · Data Storytelling"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Fora do trabalho"
+msgstr "Fora do trabalho"
+
+msgid "Triatleta — natação, ciclismo e corrida"
+msgstr "Triatleta — natação, ciclismo e corrida"
+
+msgid "Minha Trajetória"
+msgstr "Minha Trajetória"
+
+msgid "Advocacia"
+msgstr "Advocacia"
+
+msgid "14 anos como advogado, desenvolvendo competências transferíveis valiosas: investigação de cenários complexos, raciocínio analítico, estruturação de problemas, gestão de prazos e comunicação objetiva com diferentes públicos e stakeholders. Transformar informações dispersas em narrativas claras e defensáveis foi sempre meu trabalho."
+msgstr "14 anos como advogado, desenvolvendo competências transferíveis valiosas: investigação de cenários complexos, raciocínio analítico, estruturação de problemas, gestão de prazos e comunicação objetiva com diferentes públicos e stakeholders. Transformar informações dispersas em narrativas claras e defensáveis foi sempre meu trabalho."
+
+msgid "Formação em Tecnologia"
+msgstr "Formação em Tecnologia"
+
+msgid "Graduação em Análise e Desenvolvimento de Sistemas pela UNINASSAU, consolidando conhecimentos em Python, SQL, banco de dados e desenvolvimento web — aliando formação técnica à vivência prática adquirida ao longo dos anos."
+msgstr "Graduação em Análise e Desenvolvimento de Sistemas pela UNINASSAU, consolidando conhecimentos em Python, SQL, banco de dados e desenvolvimento web — aliando formação técnica à vivência prática adquirida ao longo dos anos."
+
+msgid "Transição para Dados"
+msgstr "Transição para Dados"
+
+msgid "Presente"
+msgstr "Presente"
+
+msgid "Em transição do Direito para Analytics e BI. Aplico a mesma lógica analítica da advocacia para definir perguntas relevantes, entender o contexto do negócio, organizar dados, identificar padrões, acompanhar KPIs e comunicar insights por meio de data storytelling — apoiando a tomada de decisão baseada em dados."
+msgstr "Em transição do Direito para Analytics e BI. Aplico a mesma lógica analítica da advocacia para definir perguntas relevantes, entender o contexto do negócio, organizar dados, identificar padrões, acompanhar KPIs e comunicar insights por meio de data storytelling — apoiando a tomada de decisão baseada em dados."
+
+msgid "Triatleta"
+msgstr "Triatleta"
+
+msgid "Sou triatleta e levo para o trabalho disciplina, consistência e mentalidade de melhoria contínua. O esporte me ensinou que resultados vêm de treino constante, planejamento e resiliência — qualidades que aplico diariamente na minha jornada de transição para dados."
+msgstr "Sou triatleta e levo para o trabalho disciplina, consistência e mentalidade de melhoria contínua. O esporte me ensinou que resultados vêm de treino constante, planejamento e resiliência — qualidades que aplico diariamente na minha jornada de transição para dados."
+
+msgid "Foco em Resultados"
+msgstr "Foco em Resultados"
+
+msgid "Insights práticos que apoiam decisões"
+msgstr "Insights práticos que apoiam decisões"
+
+msgid "Aprendizado Contínuo"
+msgstr "Aprendizado Contínuo"
+
+msgid "Sempre evoluindo em dados e tecnologia"
+msgstr "Sempre evoluindo em dados e tecnologia"
+
+msgid "Comunicação Clara"
+msgstr "Comunicação Clara"
+
+msgid "Data storytelling para todos os públicos"
+msgstr "Data storytelling para todos os públicos"
+
+msgid "O que estou construindo"
+msgstr "O que estou construindo"
+
+msgid "Projetos desenvolvidos para demonstrar habilidades em análise de dados, automação com Python e visualização — cada projeto resolve um problema concreto de negócio."
+msgstr "Projetos desenvolvidos para demonstrar habilidades em análise de dados, automação com Python e visualização — cada projeto resolve um problema concreto de negócio."
+
+msgid "Os projetos estão hospedados no Render (plano gratuito) e podem levar alguns segundos para iniciar na primeira visita."
+msgstr "Os projetos estão hospedados no Render (plano gratuito) e podem levar alguns segundos para iniciar na primeira visita."
+
+msgid "Sistema completo para criação, gerenciamento e acompanhamento de eventos. CRUD completo com filtros avançados e visualização em calendário."
+msgstr "Sistema completo para criação, gerenciamento e acompanhamento de eventos. CRUD completo com filtros avançados e visualização em calendário."
+
+msgid "Aplicação para controle de finanças pessoais com cadastro de receitas e despesas, gráficos interativos e relatórios exportáveis."
+msgstr "Aplicação para controle de finanças pessoais com cadastro de receitas e despesas, gráficos interativos e relatórios exportáveis."
+
+msgid "Plataforma de abertura e acompanhamento de chamados técnicos com níveis de prioridade, atribuição de responsáveis e histórico de alterações."
+msgstr "Plataforma de abertura e acompanhamento de chamados técnicos com níveis de prioridade, atribuição de responsáveis e histórico de alterações."
+
+msgid "Dashboard em tempo real exibindo métricas de CPU, memória RAM e disco do servidor, com alertas configuráveis e histórico de uso."
+msgstr "Dashboard em tempo real exibindo métricas de CPU, memória RAM e disco do servidor, com alertas configuráveis e histórico de uso."
+
+msgid "Quer ver o código-fonte dos projetos?"
+msgstr "Quer ver o código-fonte dos projetos?"
+
+msgid "Ver GitHub — Beto2024"
+msgstr "Ver GitHub — Beto2024"
+
+msgid "Análise & Visualização de Dados"
+msgstr "Análise & Visualização de Dados"
+
+msgid "Confira abaixo alguns dos meus dashboards criados no Power BI, demonstrando habilidades em Analytics e BI — análise de dados, criação de KPIs, data storytelling e visualização estratégica de informações para apoiar a tomada de decisão."
+msgstr "Confira abaixo alguns dos meus dashboards criados no Power BI, demonstrando habilidades em Analytics e BI — análise de dados, criação de KPIs, data storytelling e visualização estratégica de informações para apoiar a tomada de decisão."
+
+msgid "Dashboards interativos criados com Microsoft Power BI"
+msgstr "Dashboards interativos criados com Microsoft Power BI"
+
+msgid "Análise de Vendas"
+msgstr "Análise de Vendas"
+
+msgid "Comercial"
+msgstr "Comercial"
+
+msgid "Painel com indicadores de performance de vendas, análise de produtos mais vendidos, sazonalidade e comparativo entre períodos. Ideal para tomada de decisão estratégica comercial."
+msgstr "Painel com indicadores de performance de vendas, análise de produtos mais vendidos, sazonalidade e comparativo entre períodos. Ideal para tomada de decisão estratégica comercial."
+
+msgid "Faturamento Total"
+msgstr "Faturamento Total"
+
+msgid "Ticket Médio"
+msgstr "Ticket Médio"
+
+msgid "Qtd de Vendas"
+msgstr "Qtd de Vendas"
+
+msgid "Meta vs. Realizado"
+msgstr "Meta vs. Realizado"
+
+msgid "Margem Bruta %"
+msgstr "Margem Bruta %"
+
+msgid "Variação MoM%"
+msgstr "Variação MoM%"
+
+msgid "Top Produtos"
+msgstr "Top Produtos"
+
+msgid "Vendas por Região"
+msgstr "Vendas por Região"
+
+msgid "Indicadores de RH"
+msgstr "Indicadores de RH"
+
+msgid "Recursos Humanos"
+msgstr "Recursos Humanos"
+
+msgid "Painel de gestão de pessoas com indicadores de headcount, turnover, absenteísmo, distribuição por departamento e acompanhamento de metas de treinamento e desenvolvimento."
+msgstr "Painel de gestão de pessoas com indicadores de headcount, turnover, absenteísmo, distribuição por departamento e acompanhamento de metas de treinamento e desenvolvimento."
+
+msgid "Headcount Ativo"
+msgstr "Headcount Ativo"
+
+msgid "Taxa de Turnover"
+msgstr "Taxa de Turnover"
+
+msgid "Taxa de Absenteísmo"
+msgstr "Taxa de Absenteísmo"
+
+msgid "Admissões & Demissões"
+msgstr "Admissões & Demissões"
+
+msgid "Horas T&D per Capita"
+msgstr "Horas T&D per Capita"
+
+msgid "Investimento em T&D"
+msgstr "Investimento em T&D"
+
+msgid "Salário Médio"
+msgstr "Salário Médio"
+
+msgid "Massa Salarial"
+msgstr "Massa Salarial"
+
+msgid "Visão consolidada das finanças com fluxo de caixa, DRE simplificado, análise de despesas por categoria e projeções mensais para suporte à gestão financeira estratégica."
+msgstr "Visão consolidada das finanças com fluxo de caixa, DRE simplificado, análise de despesas por categoria e projeções mensais para suporte à gestão financeira estratégica."
+
+msgid "Financeiro"
+msgstr "Financeiro"
+
+msgid "Receita Total"
+msgstr "Receita Total"
+
+msgid "Despesa Total"
+msgstr "Despesa Total"
+
+msgid "Lucro Líquido"
+msgstr "Lucro Líquido"
+
+msgid "Margem EBITDA %"
+msgstr "Margem EBITDA %"
+
+msgid "Fluxo de Caixa Acumulado"
+msgstr "Fluxo de Caixa Acumulado"
+
+msgid "Variação MoM Despesas"
+msgstr "Variação MoM Despesas"
+
+msgid "DRE Simplificado"
+msgstr "DRE Simplificado"
+
+msgid "Sobre os Dados & Metodologia"
+msgstr "Sobre os Dados & Metodologia"
+
+msgid "Todos os dashboards são construídos sobre dados fictícios gerados para fins de demonstração de competências técnicas em Analytics e Business Intelligence. Os dados simulam cenários realistas de negócio com variações sazonais, cobrindo o período de 2023 a 2025."
+msgstr "Todos os dashboards são construídos sobre dados fictícios gerados para fins de demonstração de competências técnicas em Analytics e Business Intelligence. Os dados simulam cenários realistas de negócio com variações sazonais, cobrindo o período de 2023 a 2025."
+
+msgid "Vendas"
+msgstr "Vendas"
+
+msgid "591 transações fictícias"
+msgstr "591 transações fictícias"
+
+msgid "30 produtos em 5 categorias"
+msgstr "30 produtos em 5 categorias"
+
+msgid "10 vendedores, 8 regiões"
+msgstr "10 vendedores, 8 regiões"
+
+msgid "Sazonalidade simulada"
+msgstr "Sazonalidade simulada"
+
+msgid "80 colaboradores fictícios"
+msgstr "80 colaboradores fictícios"
+
+msgid "6 departamentos"
+msgstr "6 departamentos"
+
+msgid "120 movimentações"
+msgstr "120 movimentações"
+
+msgid "200 registros de absenteísmo"
+msgstr "200 registros de absenteísmo"
+
+msgid "465 lançamentos fictícios"
+msgstr "465 lançamentos fictícios"
+
+msgid "20 categorias financeiras"
+msgstr "20 categorias financeiras"
+
+msgid "8 centros de custo"
+msgstr "8 centros de custo"
+
+msgid "DRE e fluxo de caixa"
+msgstr "DRE e fluxo de caixa"
+
+msgid "Perfil Profissional"
+msgstr "Perfil Profissional"
+
+msgid "Versão interativa do meu currículo profissional."
+msgstr "Versão interativa do meu currículo profissional."
+
+msgid "Download PDF"
+msgstr "Download PDF"
+
+msgid "Analytics e BI | Python, SQL, Power BI e Excel | Ex-Advogado | Triatleta"
+msgstr "Analytics e BI | Python, SQL, Power BI e Excel | Ex-Advogado | Triatleta"
+
+msgid "Objetivo Profissional"
+msgstr "Objetivo Profissional"
+
+msgid "Atuar na área de Analytics e Business Intelligence, aplicando competências analíticas, ferramentas de dados e experiência em comunicação para apoiar a tomada de decisão baseada em dados. Busco colaborar com times multidisciplinares, atuar com melhoria contínua e entregar análises que tragam clareza ao negócio em um ambiente data driven."
+msgstr "Atuar na área de Analytics e Business Intelligence, aplicando competências analíticas, ferramentas de dados e experiência em comunicação para apoiar a tomada de decisão baseada em dados. Busco colaborar com times multidisciplinares, atuar com melhoria contínua e entregar análises que tragam clareza ao negócio em um ambiente data driven."
+
+msgid "Formação Acadêmica"
+msgstr "Formação Acadêmica"
+
+msgid "CST em Análise e Desenvolvimento de Sistemas"
+msgstr "CST em Análise e Desenvolvimento de Sistemas"
+
+msgid "Python, SQL, banco de dados e desenvolvimento web"
+msgstr "Python, SQL, banco de dados e desenvolvimento web"
+
+msgid "Análise de sistemas e levantamento de requisitos"
+msgstr "Análise de sistemas e levantamento de requisitos"
+
+msgid "Engenharia de software e boas práticas de desenvolvimento"
+msgstr "Engenharia de software e boas práticas de desenvolvimento"
+
+msgid "Bacharelado em Direito"
+msgstr "Bacharelado em Direito"
+
+msgid "Universidade Potiguar"
+msgstr "Universidade Potiguar"
+
+msgid "Raciocínio analítico, argumentação e estruturação de problemas"
+msgstr "Raciocínio analítico, argumentação e estruturação de problemas"
+
+msgid "Investigação de cenários complexos e comunicação objetiva"
+msgstr "Investigação de cenários complexos e comunicação objetiva"
+
+msgid "Experiência Profissional"
+msgstr "Experiência Profissional"
+
+msgid "Advogado"
+msgstr "Advogado"
+
+msgid "Autônomo"
+msgstr "Autônomo"
+
+msgid "2009 – 2023 (14 anos)"
+msgstr "2009 – 2023 (14 anos)"
+
+msgid "Investigação analítica de cenários jurídicos complexos"
+msgstr "Investigação analítica de cenários jurídicos complexos"
+
+msgid "Estruturação de problemas e definição de estratégias baseadas em evidências"
+msgstr "Estruturação de problemas e definição de estratégias baseadas em evidências"
+
+msgid "Gestão de prazos e priorização em múltiplos projetos simultâneos"
+msgstr "Gestão de prazos e priorização em múltiplos projetos simultâneos"
+
+msgid "Comunicação objetiva com diferentes públicos e stakeholders"
+msgstr "Comunicação objetiva com diferentes públicos e stakeholders"
+
+msgid "Transformação de informações dispersas em narrativas claras e defensáveis"
+msgstr "Transformação de informações dispersas em narrativas claras e defensáveis"
+
+msgid "Competências Técnicas"
+msgstr "Competências Técnicas"
+
+msgid "Power BI (dashboards e relatórios)"
+msgstr "Power BI (dashboards e relatórios)"
+
+msgid "Excel (análise avançada e automação)"
+msgstr "Excel (análise avançada e automação)"
+
+msgid "SQL (extração, tratamento e análise)"
+msgstr "SQL (extração, tratamento e análise)"
+
+msgid "Python (automação, pandas, numpy)"
+msgstr "Python (automação, pandas, numpy)"
+
+msgid "Flask (desenvolvimento web backend)"
+msgstr "Flask (desenvolvimento web backend)"
+
+msgid "Git e GitHub (controle de versão)"
+msgstr "Git e GitHub (controle de versão)"
+
+msgid "Competências Transferíveis"
+msgstr "Competências Transferíveis"
+
+msgid "Raciocínio analítico"
+msgstr "Raciocínio analítico"
+
+msgid "Data storytelling"
+msgstr "Data storytelling"
+
+msgid "Gestão de prazos"
+msgstr "Gestão de prazos"
+
+msgid "Comunicação com stakeholders"
+msgstr "Comunicação com stakeholders"
+
+msgid "Estruturação de problemas"
+msgstr "Estruturação de problemas"
+
+msgid "Melhoria contínua"
+msgstr "Melhoria contínua"
+
+msgid "Português"
+msgstr "Português"
+
+msgid "Nativo"
+msgstr "Nativo"
+
+msgid "Leitura técnica e comunicação"
+msgstr "Leitura técnica e comunicação"
+
+msgid "Informações Adicionais"
+msgstr "Informações Adicionais"
+
+msgid "disciplina, consistência e mentalidade de melhoria contínua aplicadas ao trabalho diário."
+msgstr "disciplina, consistência e mentalidade de melhoria contínua aplicadas ao trabalho diário."
+
+msgid "Forte familiaridade com hardware, software e fundamentos de TI, com rápida adaptação a novas ferramentas."
+msgstr "Forte familiaridade com hardware, software e fundamentos de TI, com rápida adaptação a novas ferramentas."
+
+msgid "Vamos conversar"
+msgstr "Vamos conversar"
+
+msgid "Entre em Contato"
+msgstr "Entre em Contato"
+
+msgid "Estou aberto a novas oportunidades, projetos e parcerias. Sinta-se à vontade para entrar em contato!"
+msgstr "Estou aberto a novas oportunidades, projetos e parcerias. Sinta-se à vontade para entrar em contato!"
+
+msgid "Envie uma mensagem"
+msgstr "Envie uma mensagem"
+
+msgid "Nome completo"
+msgstr "Nome completo"
+
+msgid "Seu nome"
+msgstr "Seu nome"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "seu@email.com"
+msgstr "seu@email.com"
+
+msgid "Assunto"
+msgstr "Assunto"
+
+msgid "Proposta de emprego, projeto, parceria..."
+msgstr "Proposta de emprego, projeto, parceria..."
+
+msgid "Mensagem"
+msgstr "Mensagem"
+
+msgid "Escreva sua mensagem aqui..."
+msgstr "Escreva sua mensagem aqui..."
+
+msgid "Enviar Mensagem"
+msgstr "Enviar Mensagem"
+
+msgid "Formulário demonstrativo — para contato imediato, use o e-mail ou o GitHub abaixo."
+msgstr "Formulário demonstrativo — para contato imediato, use o e-mail ou o GitHub abaixo."
+
+msgid "Canais de contato"
+msgstr "Canais de contato"
+
+msgid "Localização"
+msgstr "Localização"
+
+msgid "Aberto a propostas de emprego CLT ou PJ, projetos freelance e colaborações em projetos open source."
+msgstr "Aberto a propostas de emprego CLT ou PJ, projetos freelance e colaborações em projetos open source."
+
+msgid "Página não encontrada"
+msgstr "Página não encontrada"
+
+msgid "Parece que esta página foi para outro lugar. Assim como eu na infância desmontando computadores — às vezes as peças acabam em lugares inesperados! 😄"
+msgstr "Parece que esta página foi para outro lugar. Assim como eu na infância desmontando computadores — às vezes as peças acabam em lugares inesperados! 😄"
+
+msgid "Voltar para o Início"
+msgstr "Voltar para o Início"
+
+msgid "Ou navegue por aqui"
+msgstr "Ou navegue por aqui"
+
+msgid "Sobre Roberto Fausto"
+msgstr "Sobre Roberto Fausto"
+
+msgid "Sobre Mim"
+msgstr "Sobre Mim"

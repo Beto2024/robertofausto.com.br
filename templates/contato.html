@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Contato | Roberto Fausto{% endblock %}
-{% block og_title %}Contato — Roberto Fausto{% endblock %}
+{% block title %}{{ _('Contato') }} | Roberto Fausto{% endblock %}
+{% block og_title %}{{ _('Contato') }} — Roberto Fausto{% endblock %}
 
 {% block content %}
 
@@ -10,12 +10,12 @@
 
         <!-- Cabeçalho -->
         <div class="text-center mb-14 fade-in-up">
-            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">Vamos conversar</p>
+            <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-3">{{ _('Vamos conversar') }}</p>
             <h1 class="text-4xl sm:text-5xl font-black mb-4">
-                <span class="gradient-text">Entre em Contato</span>
+                <span class="gradient-text">{{ _('Entre em Contato') }}</span>
             </h1>
             <p class="text-gray-400 max-w-xl mx-auto">
-                Estou aberto a novas oportunidades, projetos e parcerias. Sinta-se à vontade para entrar em contato!
+                {{ _('Estou aberto a novas oportunidades, projetos e parcerias. Sinta-se à vontade para entrar em contato!') }}
             </p>
         </div>
 
@@ -25,53 +25,53 @@
             <!-- Coluna esquerda — Formulário (3/5) -->
             <div class="lg:col-span-3 fade-in-up" data-delay="100">
                 <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8">
-                    <h2 class="text-xl font-bold text-white mb-6">Envie uma mensagem</h2>
+                    <h2 class="text-xl font-bold text-white mb-6">{{ _('Envie uma mensagem') }}</h2>
 
                     <form id="contact-form" class="space-y-5" novalidate>
 
                         <!-- Nome -->
                         <div>
-                            <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Nome completo</label>
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-2">{{ _('Nome completo') }}</label>
                             <input type="text"
                                    id="name"
                                    name="name"
                                    class="form-input w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-500 text-sm"
-                                   placeholder="Seu nome"
+                                   placeholder="{{ _('Seu nome') }}"
                                    required
                                    autocomplete="name">
                         </div>
 
                         <!-- Email -->
                         <div>
-                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2">E-mail</label>
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-2">{{ _('E-mail') }}</label>
                             <input type="email"
                                    id="email"
                                    name="email"
                                    class="form-input w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-500 text-sm"
-                                   placeholder="seu@email.com"
+                                   placeholder="{{ _('seu@email.com') }}"
                                    required
                                    autocomplete="email">
                         </div>
 
                         <!-- Assunto -->
                         <div>
-                            <label for="subject" class="block text-sm font-medium text-gray-300 mb-2">Assunto</label>
+                            <label for="subject" class="block text-sm font-medium text-gray-300 mb-2">{{ _('Assunto') }}</label>
                             <input type="text"
                                    id="subject"
                                    name="subject"
                                    class="form-input w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-500 text-sm"
-                                   placeholder="Proposta de emprego, projeto, parceria..."
+                                   placeholder="{{ _('Proposta de emprego, projeto, parceria...') }}"
                                    required>
                         </div>
 
                         <!-- Mensagem -->
                         <div>
-                            <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Mensagem</label>
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-2">{{ _('Mensagem') }}</label>
                             <textarea id="message"
                                       name="message"
                                       rows="5"
                                       class="form-input w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-500 text-sm resize-none"
-                                      placeholder="Escreva sua mensagem aqui..."
+                                      placeholder="{{ _('Escreva sua mensagem aqui...') }}"
                                       required></textarea>
                         </div>
 
@@ -81,11 +81,11 @@
                             <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                             </svg>
-                            <span>Enviar Mensagem</span>
+                            <span>{{ _('Enviar Mensagem') }}</span>
                         </button>
 
                         <p class="text-xs text-gray-600 text-center">
-                            ℹ️ Formulário demonstrativo — para contato imediato, use o e-mail ou o GitHub abaixo.
+                            ℹ️ {{ _('Formulário demonstrativo — para contato imediato, use o e-mail ou o GitHub abaixo.') }}
                         </p>
 
                     </form>
@@ -95,7 +95,7 @@
             <!-- Coluna direita — Informações de contato (2/5) -->
             <div class="lg:col-span-2 space-y-4 fade-in-up" data-delay="200">
 
-                <h2 class="text-xl font-bold text-white mb-6">Canais de contato</h2>
+                <h2 class="text-xl font-bold text-white mb-6">{{ _('Canais de contato') }}</h2>
 
                 <!-- Email -->
                 <a href="mailto:robertofaustofilho@gmail.com"
@@ -106,7 +106,7 @@
                         </svg>
                     </div>
                     <div class="min-w-0">
-                        <p class="text-xs text-gray-500 font-medium uppercase tracking-wide mb-0.5">E-mail</p>
+                        <p class="text-xs text-gray-500 font-medium uppercase tracking-wide mb-0.5">{{ _('E-mail') }}</p>
                         <p class="text-sm text-gray-200 font-medium truncate group-hover:text-blue-400 transition-colors duration-300">
                             robertofaustofilho@gmail.com
                         </p>
@@ -154,8 +154,8 @@
                         </svg>
                     </div>
                     <div class="min-w-0">
-                        <p class="text-xs text-gray-500 font-medium uppercase tracking-wide mb-0.5">Localização</p>
-                        <p class="text-sm text-gray-200 font-medium">Natal, Rio Grande do Norte, Brasil 🇧🇷</p>
+                        <p class="text-xs text-gray-500 font-medium uppercase tracking-wide mb-0.5">{{ _('Localização') }}</p>
+                        <p class="text-sm text-gray-200 font-medium">{{ _('Natal, Rio Grande do Norte, Brasil') }} 🇧🇷</p>
                     </div>
                 </div>
 
@@ -163,10 +163,10 @@
                 <div class="bg-green-500/5 border border-green-500/20 rounded-xl p-5 mt-6">
                     <div class="flex items-center space-x-2 mb-2">
                         <span class="w-2.5 h-2.5 bg-green-400 rounded-full animate-pulse"></span>
-                        <p class="text-sm font-semibold text-green-400">Disponível para oportunidades</p>
+                        <p class="text-sm font-semibold text-green-400">{{ _('Disponível para oportunidades') }}</p>
                     </div>
                     <p class="text-xs text-gray-500 leading-relaxed">
-                        Aberto a propostas de emprego CLT ou PJ, projetos freelance e colaborações em projetos open source.
+                        {{ _('Aberto a propostas de emprego CLT ou PJ, projetos freelance e colaborações em projetos open source.') }}
                     </p>
                 </div>
 
