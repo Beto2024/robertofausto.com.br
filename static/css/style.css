@@ -215,16 +215,9 @@ body {
 }
 
 /* ---------- Menu mobile ---------- */
+/* Visibilidade controlada pela classe 'hidden' do Tailwind via JavaScript */
 #mobile-menu {
-    transition: max-height 0.4s ease, opacity 0.4s ease;
-    max-height: 0;
-    opacity: 0;
-    overflow: hidden;
-}
-
-#mobile-menu.open {
-    max-height: 400px;
-    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 /* ---------- Formulário de contato ---------- */
