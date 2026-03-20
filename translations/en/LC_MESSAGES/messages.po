@@ -46,7 +46,7 @@ msgid "Enviar email"
 msgstr "Send email"
 
 msgid "Analytics e BI · Ex-Advogado · Triatleta 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️"
-msgstr "Analytics & BI · Ex-Attorney · Triathlete ��\u200d♂️🚴\u200d♂️🏃\u200d♂️"
+msgstr "Analytics & BI · Ex-Attorney · Triathlete 🏊\u200d♂️🚴\u200d♂️🏃\u200d♂️"
 
 msgid "Todos os direitos reservados."
 msgstr "All rights reserved."
