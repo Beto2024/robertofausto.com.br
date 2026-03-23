@@ -436,7 +436,129 @@
 
         <!-- Frase de transição -->
         <p class="mt-14 text-center text-gray-500 italic text-sm sm:text-base fade-in-up">
-            "{{ _('Essa é minha história até aqui. O próximo capítulo? Talvez a gente escreva juntos.') }}"
+            "{{ _('Mas os projetos são apenas parte da história. Os dados também falam por si...') }}"
+        </p>
+
+    </div>
+</section>
+
+<!-- ============================================================
+     SEÇÃO 4 — "Os Dashboards" (Power BI) — Capítulo 4
+============================================================ -->
+<section id="dashboards-bi" class="py-24 border-t border-gray-800/50 bg-gray-950/50">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Cabeçalho da seção -->
+        <div class="text-center mb-10 fade-in-up">
+            <p class="text-sm font-semibold text-yellow-400 uppercase tracking-widest mb-2">{{ _('Capítulo 4') }}</p>
+            <h2 class="text-3xl sm:text-4xl font-bold text-white">{{ _('Os Dashboards') }}</h2>
+            <p class="mt-3 text-gray-400 text-sm sm:text-base">{{ _('Dados que contam histórias') }}</p>
+        </div>
+
+        <!-- Cards de dashboards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-container">
+
+            <!-- Dashboard 1: Análise de Vendas -->
+            <article class="card-hover stagger-item bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-blue-500/50 group flex flex-col">
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl" aria-hidden="true">📈</span>
+                        <h3 class="text-base font-bold text-white group-hover:text-blue-400 transition-colors duration-300">{{ _('Análise de Vendas') }}</h3>
+                    </div>
+                    <span class="text-xs font-semibold px-2 py-1 rounded-full text-blue-400 bg-blue-500/10 border border-blue-500/20 flex-shrink-0">{{ _('Comercial') }}</span>
+                </div>
+                <p class="text-sm text-gray-400 leading-relaxed mb-4 flex-grow">
+                    {{ _('Painel com indicadores de performance de vendas, análise de produtos mais vendidos, sazonalidade e comparativo entre períodos.') }}
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Faturamento Total') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Ticket Médio') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Meta vs. Realizado') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Top Produtos') }}</span>
+                </div>
+                <a href="/dashboards"
+                   class="inline-flex items-center text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200 group/link"
+                   aria-label="{{ _('Ver Dashboard Análise de Vendas') }}">
+                    {{ _('Ver Dashboard') }}
+                    <svg class="w-4 h-4 ml-1 group-hover/link:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </article>
+
+            <!-- Dashboard 2: Indicadores de RH -->
+            <article class="card-hover stagger-item bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-purple-500/50 group flex flex-col">
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl" aria-hidden="true">👥</span>
+                        <h3 class="text-base font-bold text-white group-hover:text-purple-400 transition-colors duration-300">{{ _('Indicadores de RH') }}</h3>
+                    </div>
+                    <span class="text-xs font-semibold px-2 py-1 rounded-full text-purple-400 bg-purple-500/10 border border-purple-500/20 flex-shrink-0">{{ _('Recursos Humanos') }}</span>
+                </div>
+                <p class="text-sm text-gray-400 leading-relaxed mb-4 flex-grow">
+                    {{ _('Painel de gestão de pessoas com headcount, turnover, absenteísmo e acompanhamento de metas de treinamento e desenvolvimento.') }}
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Headcount Ativo') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Taxa de Turnover') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Taxa de Absenteísmo') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Salário Médio') }}</span>
+                </div>
+                <a href="/dashboards"
+                   class="inline-flex items-center text-purple-400 hover:text-purple-300 text-sm font-medium transition-colors duration-200 group/link"
+                   aria-label="{{ _('Ver Dashboard Indicadores de RH') }}">
+                    {{ _('Ver Dashboard') }}
+                    <svg class="w-4 h-4 ml-1 group-hover/link:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </article>
+
+            <!-- Dashboard 3: Dashboard Financeiro -->
+            <article class="card-hover stagger-item bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-green-500/50 group flex flex-col">
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl" aria-hidden="true">💰</span>
+                        <h3 class="text-base font-bold text-white group-hover:text-green-400 transition-colors duration-300">{{ _('Dashboard Financeiro') }}</h3>
+                    </div>
+                    <span class="text-xs font-semibold px-2 py-1 rounded-full text-green-400 bg-green-500/10 border border-green-500/20 flex-shrink-0">{{ _('Financeiro') }}</span>
+                </div>
+                <p class="text-sm text-gray-400 leading-relaxed mb-4 flex-grow">
+                    {{ _('Visão consolidada das finanças com fluxo de caixa, DRE simplificado, análise de despesas por categoria e projeções mensais.') }}
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Receita Total') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Lucro Líquido') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('Margem EBITDA%') }}</span>
+                    <span class="tech-badge px-2 py-1 bg-gray-800 border border-gray-700 rounded-full text-xs text-gray-300">{{ _('DRE Simplificado') }}</span>
+                </div>
+                <a href="/dashboards"
+                   class="inline-flex items-center text-green-400 hover:text-green-300 text-sm font-medium transition-colors duration-200 group/link"
+                   aria-label="{{ _('Ver Dashboard Financeiro') }}">
+                    {{ _('Ver Dashboard') }}
+                    <svg class="w-4 h-4 ml-1 group-hover/link:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </article>
+
+        </div>
+
+        <!-- Link para página completa de dashboards -->
+        <div class="mt-10 text-center fade-in-up">
+            <a href="/dashboards"
+               class="inline-flex items-center text-yellow-400 hover:text-yellow-300 font-medium transition-colors duration-200 group"
+               aria-label="{{ _('Ver todos os dashboards Power BI') }}">
+                {{ _('Ver todos os dashboards') }}
+                <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Frase de transição -->
+        <p class="mt-14 text-center text-gray-500 italic text-sm sm:text-base fade-in-up">
+            "{{ _('Com projetos e dashboards no ar, o próximo passo é o mais importante...') }}"
         </p>
 
     </div>
