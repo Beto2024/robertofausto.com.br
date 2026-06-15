@@ -184,16 +184,20 @@
                 </article>
 
                 <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60">
-                    <div class="h-28 mb-4 rounded-lg border border-dashed border-gray-700 bg-gray-800/40 flex items-center justify-center">
-                        <p class="text-xs text-gray-500 text-center px-3">{{ _('Espaço reservado para logotipo') }}</p>
+                    <div class="h-28 mb-4 rounded-lg bg-black flex items-center justify-center overflow-hidden">
+                        <img src="{{ url_for('static', filename='img/logo_caddu_rodrigues.jpeg') }}"
+                             alt="Logo Caddu Rodrigues"
+                             class="h-full w-full object-contain">
                     </div>
                     <p class="text-sm font-semibold text-white leading-relaxed">CR PRODUÇÕES E EVENTOS LTDA BANDA CADDU RODRIGUES</p>
                     <p class="text-xs text-gray-400 mt-1">CNPJ: 20.327.825/0001-22</p>
                 </article>
 
                 <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60 md:col-span-2">
-                    <div class="h-28 mb-4 rounded-lg border border-dashed border-gray-700 bg-gray-800/40 flex items-center justify-center">
-                        <p class="text-xs text-gray-500 text-center px-3">{{ _('Espaço reservado para logotipo') }}</p>
+                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                        <img src="{{ url_for('static', filename='img/logo_lima_nascimento.jpeg') }}"
+                             alt="Logo Lima e Nascimento"
+                             class="h-full w-full object-contain">
                     </div>
                     <p class="text-sm font-semibold text-white leading-relaxed">LIMA E NASCIMENTO SERVICOS LTDA</p>
                     <p class="text-xs text-gray-400 mt-1">CNPJ: 04.599.449/0001-79</p>
