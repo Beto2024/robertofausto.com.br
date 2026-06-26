@@ -176,8 +176,10 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60">
-                    <div class="h-28 mb-4 rounded-lg border border-dashed border-gray-700 bg-gray-800/40 flex items-center justify-center">
-                        <p class="text-xs text-gray-500 text-center px-3">{{ _('Espaço reservado para logotipo') }}</p>
+                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                        <img src="{{ url_for('static', filename='img/logo_fausto_lima_engenharia.svg') }}"
+                             alt="Logo Fausto e Lima Engenharia"
+                             class="h-full w-full object-contain">
                     </div>
                     <p class="text-sm font-semibold text-white leading-relaxed">FAUSTO E LIMA ENGENHARIA</p>
                     <p class="text-xs text-gray-400 mt-1">CNPJ: 58.976.857/0001-21</p>
