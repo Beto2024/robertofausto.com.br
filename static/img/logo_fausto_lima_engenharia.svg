@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+  <rect width="320" height="100" fill="#ffffff"/>
+  <!-- FL monogram block -->
+  <rect x="8" y="8" width="84" height="84" rx="6" fill="#1a2e5a"/>
+  <!-- F letter -->
+  <rect x="18" y="18" width="28" height="6" fill="#f5a623"/>
+  <rect x="18" y="18" width="6" height="64" fill="#f5a623"/>
+  <rect x="18" y="44" width="22" height="6" fill="#f5a623"/>
+  <!-- L letter -->
+  <rect x="54" y="18" width="6" height="64" fill="#ffffff"/>
+  <rect x="54" y="76" width="28" height="6" fill="#ffffff"/>
+  <!-- Company name text -->
+  <text x="104" y="42" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#1a2e5a" letter-spacing="0.5">FAUSTO &amp; LIMA</text>
+  <text x="104" y="66" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#1a2e5a" letter-spacing="1">ENGENHARIA</text>
+</svg>
