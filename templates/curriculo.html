@@ -174,65 +174,89 @@
                 </div>
                 <h3 class="text-lg font-bold text-white">{{ _('Empresas para quem prestei serviços') }}</h3>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60">
-                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-white flex items-center justify-center overflow-hidden">
                         <img src="{{ url_for('static', filename='img/logo_fausto_lima_engenharia.png') }}"
                              alt="Logo Fausto e Lima Engenharia"
-                             class="h-full w-full object-contain">
+                             class="h-full w-full object-contain p-2">
                     </div>
-                    <p class="text-sm font-semibold text-white leading-relaxed">FAUSTO E LIMA ENGENHARIA</p>
-                    <p class="text-xs text-gray-400 mt-1">CNPJ: 58.976.857/0001-21</p>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">FAUSTO E LIMA</p>
+                        <p class="text-xs text-gray-400">58.976.857/0001-21</p>
+                    </div>
                 </article>
 
-                <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60">
-                    <div class="h-28 mb-4 rounded-lg bg-black flex items-center justify-center overflow-hidden">
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-black flex items-center justify-center overflow-hidden">
                         <img src="{{ url_for('static', filename='img/logo_caddu_rodrigues.jpeg') }}"
                              alt="Logo Caddu Rodrigues"
-                             class="h-full w-full object-contain">
+                             class="h-full w-full object-contain p-2">
                     </div>
-                    <p class="text-sm font-semibold text-white leading-relaxed">CR PRODUÇÕES E EVENTOS LTDA BANDA CADDU RODRIGUES</p>
-                    <p class="text-xs text-gray-400 mt-1">CNPJ: 20.327.825/0001-22</p>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">CADDU RODRIGUES</p>
+                        <p class="text-xs text-gray-400">20.327.825/0001-22</p>
+                    </div>
                 </article>
 
-                <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60 md:col-span-2">
-                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-white flex items-center justify-center overflow-hidden">
                         <img src="{{ url_for('static', filename='img/logo_lima_nascimento.jpeg') }}"
                              alt="Logo Lima e Nascimento"
-                             class="h-full w-full object-contain">
+                             class="h-full w-full object-contain p-2">
                     </div>
-                    <p class="text-sm font-semibold text-white leading-relaxed">LIMA E NASCIMENTO SERVICOS LTDA</p>
-                    <p class="text-xs text-gray-400 mt-1">CNPJ: 04.599.449/0001-79</p>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">LIMA E NASCIMENTO</p>
+                        <p class="text-xs text-gray-400">04.599.449/0001-79</p>
+                    </div>
                 </article>
 
-                <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60">
-                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-white flex items-center justify-center overflow-hidden">
                         <img src="{{ url_for('static', filename='img/logo_mvm_empreendimentos.jpeg') }}"
                              alt="Logo MVM Empreendimentos"
-                             class="h-full w-full object-contain">
+                             class="h-full w-full object-contain p-2">
                     </div>
-                    <p class="text-sm font-semibold text-white leading-relaxed">EMPREENDIMENTOS E NEGÓCIOS MVM LTDA</p>
-                    <p class="text-xs text-gray-400 mt-1">CNPJ: 37.094.328/0001-24</p>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">MVM EMPREENDIMENTOS</p>
+                        <p class="text-xs text-gray-400">37.094.328/0001-24</p>
+                    </div>
                 </article>
 
-                <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60">
-                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-white flex items-center justify-center overflow-hidden">
                         <img src="{{ url_for('static', filename='img/logo_ra_pinto_engenharia.jpeg') }}"
                              alt="Logo R A Pinto Engenharia"
-                             class="h-full w-full object-contain">
+                             class="h-full w-full object-contain p-2">
                     </div>
-                    <p class="text-sm font-semibold text-white leading-relaxed">R A PINTO ENGENHARIA</p>
-                    <p class="text-xs text-gray-400 mt-1">CNPJ: 47.175.720/0001-51</p>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">R A PINTO</p>
+                        <p class="text-xs text-gray-400">47.175.720/0001-51</p>
+                    </div>
                 </article>
 
-                <article class="border border-gray-800 rounded-xl p-4 bg-gray-900/60 md:col-span-2">
-                    <div class="h-28 mb-4 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-white flex items-center justify-center overflow-hidden">
                         <img src="{{ url_for('static', filename='img/logo_mn_construcoes.jpeg') }}"
                              alt="Logo MN Construções e Locações"
-                             class="h-full w-full object-contain">
+                             class="h-full w-full object-contain p-2">
                     </div>
-                    <p class="text-sm font-semibold text-white leading-relaxed">MN CONSTRUÇÕES E LOCAÇÕES LTDA</p>
-                    <p class="text-xs text-gray-400 mt-1">CNPJ: 64.140.678/0001-52</p>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">MN CONSTRUÇÕES</p>
+                        <p class="text-xs text-gray-400">64.140.678/0001-52</p>
+                    </div>
+                </article>
+
+                <article class="border border-gray-800 rounded-xl p-3 bg-gray-900/60 aspect-square flex flex-col justify-center group cursor-pointer hover:border-cyan-500/50 transition-colors">
+                    <div class="flex-1 rounded-lg bg-white flex items-center justify-center overflow-hidden">
+                        <img src="{{ url_for('static', filename='img/logo_enertech.svg') }}"
+                             alt="Logo Enertech Soluções"
+                             class="h-full w-full object-contain p-2">
+                    </div>
+                    <div class="mt-2 opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                        <p class="text-xs font-semibold text-white truncate">ENERTECH</p>
+                        <p class="text-xs text-gray-400">31.045.415/0001-05</p>
+                    </div>
                 </article>
             </div>
         </div>
